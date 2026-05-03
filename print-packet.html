@@ -32,6 +32,7 @@ pre { white-space: pre-wrap; background: #f5f5f5; padding: 10px; border: 1px sol
 <tr><td>`README.md`</td><td>Project artifact.</td></tr>
 <tr><td>`SKILLS.md`</td><td>Project artifact.</td></tr>
 <tr><td>`family-spec.csv`</td><td>Project artifact.</td></tr>
+<tr><td>`image-attributions.md`</td><td>Project artifact.</td></tr>
 </table>
 
 <div class="page-break"></div>
@@ -57,10 +58,12 @@ pre { white-space: pre-wrap; background: #f5f5f5; padding: 10px; border: 1px sol
 
 <ul>
 <li>Repo: `https://github.com/tonykoop/chalumeau`</li>
-<li>Local inspiration photos: `images/chalumeau1.jpg`, `images/chalumeau5.jpg`,</li>
+<li>Attributed inspiration/reference photos: `images/chalumeau1.jpg` and</li>
 </ul>
-<p>  and `images/7173-372-1_1920x1080.avif`</p>
+<p>  `images/chalumeau5.jpg`, from Petr Skalicky / Dudy.eu:</p>
+<p>  `https://www.dudy.eu/chalumeau.php`</p>
 <ul>
+<li>Additional local inspiration image: `images/7173-372-1_1920x1080.avif`</li>
 <li>Workbook inspected: `C:/Users/Tony/Documents/Claude/Projects/Career/flutes-staging/Musical Instruments.xlsx`</li>
 <li>Relevant workbook source sheet: `Great Highland Bagpipe`, especially the</li>
 </ul>
@@ -446,8 +449,14 @@ cents_error = 1200 * log2(measured_hz / target_hz)
 <h2>Real Images Available</h2>
 
 <ul>
-<li>`images/chalumeau1.jpg`: full instrument inspiration.</li>
-<li>`images/chalumeau5.jpg`: close-up of raised collars and wood finish.</li>
+<li>`images/chalumeau1.jpg`: full instrument inspiration, attributed to</li>
+</ul>
+<p>  Petr Skalicky / Dudy.eu, `https://www.dudy.eu/chalumeau.php`.</p>
+<ul>
+<li>`images/chalumeau5.jpg`: close-up of raised collars and wood finish,</li>
+</ul>
+<p>  attributed to Petr Skalicky / Dudy.eu, `https://www.dudy.eu/chalumeau.php`.</p>
+<ul>
 <li>`images/7173-372-1_1920x1080.avif`: additional inspiration image,</li>
 </ul>
 <p>  not universally supported by all renderers.</p>
@@ -556,6 +565,20 @@ Manipulate[
 <p>&gt; second, and a documented path toward clarinet-style register experiments.</p>
 
 <p>![Inspiration chalumeau with turned wood body, raised tone-hole collars, black mouthpiece, and flared bell](images/chalumeau1.jpg)</p>
+<p>*Photo/reference instrument by Petr Skalicky / Dudy.eu, from</p>
+<p>[dudy.eu/chalumeau.php](https://www.dudy.eu/chalumeau.php). Used here</p>
+<p>as an attributed design reference, not as Tony&#x27;s own build photo.*</p>
+
+<h2>GitHub Repo Metadata</h2>
+
+<p>**Description:** Parametric build packet for a handmade chalumeau family,</p>
+<p>including stopped-reed acoustics, tone-hole schedules, SolidWorks design</p>
+<p>tables, and DIY keywork.</p>
+
+<p>**Suggested topics:** `chalumeau`, `woodwind`, `single-reed`,</p>
+<p>`clarinet-history`, `instrument-making`, `parametric-design`,</p>
+<p>`solidworks`, `acoustic-modeling`, `cnc-lathe`, `woodworking`,</p>
+<p>`music-technology`, `build-packet`</p>
 
 <h2>What this is</h2>
 
@@ -565,12 +588,12 @@ Manipulate[
 <p>positions, and optional levers are driven from formulas rather than</p>
 <p>hidden one-off dimensions.</p>
 
-<p>The packet starts from the local inspiration photos in `images/`, Tony&#x27;s</p>
-<p>`Musical Instruments.xlsx` workbook, and especially the reed/bore lessons</p>
-<p>in the `Great Highland Bagpipe` sheet. The acoustic model is not copied</p>
-<p>from Native American style flute K2 corrections. A chalumeau is a</p>
-<p>cylindrical, single-reed, effectively stopped pipe, so it gets its own</p>
-<p>validation loop.</p>
+<p>The packet starts from attributed Dudy.eu chalumeau reference photos in</p>
+<p>`images/`, Tony&#x27;s `Musical Instruments.xlsx` workbook, and especially</p>
+<p>the reed/bore lessons in the `Great Highland Bagpipe` sheet. The</p>
+<p>acoustic model is not copied from Native American style flute K2</p>
+<p>corrections. A chalumeau is a cylindrical, single-reed, effectively</p>
+<p>stopped pipe, so it gets its own validation loop.</p>
 
 <h2>Family plan</h2>
 
@@ -651,9 +674,10 @@ Manipulate[
 
 <h2>License</h2>
 
-<p>Released under [CC-BY 4.0](LICENSE). Source photos remain whatever their</p>
-<p>original provenance allows; use the local images as inspiration and replace</p>
-<p>with shop photos as prototypes are built.</p>
+<p>Released under [CC-BY 4.0](LICENSE) for original written/design content</p>
+<p>in this repository. The Dudy.eu reference photos are attributed source</p>
+<p>images, not Tony-owned build photos; replace them with shop photos as</p>
+<p>prototypes are built.</p>
 
 <div class="page-break"></div>
 
@@ -698,4 +722,35 @@ Manipulate[
 <tr><td>CLM-TEN-C3</td><td>Tenor C</td><td>C3</td><td>48</td><td>130.81</td><td>0.75</td><td>0.25</td><td>1.25</td><td>2.35</td><td>25.9</td><td>25.483</td><td>26.983</td><td>1.625 x 1.625 x 26.983</td><td>2 body joints + mouthpiece + bell</td><td>Prototype 3</td><td>first-order design; validate after reed and bore prototype</td></tr>
 <tr><td>CLM-BAS-F2</td><td>Bass F</td><td>F2</td><td>41</td><td>87.31</td><td>0.875</td><td>0.313</td><td>1.5</td><td>2.9</td><td>38.806</td><td>38.32</td><td>39.82</td><td>1.875 x 1.875 x 39.82</td><td>3 body joints + mouthpiece + bell</td><td>Stretch prototype</td><td>first-order design; validate after reed and bore prototype</td></tr>
 </table>
+
+<div class="page-break"></div>
+
+<h2>image-attributions.md</h2>
+
+<p>Project artifact.</p>
+
+<h1>Image Attributions</h1>
+
+<h2>Dudy.eu Chalumeau Reference Photos</h2>
+
+<ul>
+<li>`images/chalumeau1.jpg`</li>
+<li>`images/chalumeau5.jpg`</li>
+</ul>
+
+<p>Attribution: Petr Skalicky / Dudy.eu, chalumeau reference page:</p>
+<p>https://www.dudy.eu/chalumeau.php</p>
+
+<p>Use in this repo: attributed visual reference for form, finish, raised</p>
+<p>tone-hole collars, mouthpiece layout, and bell styling. These are not Tony&#x27;s</p>
+<p>own build photos.</p>
+
+<h2>Additional Local Inspiration Image</h2>
+
+<ul>
+<li>`images/7173-372-1_1920x1080.avif`</li>
+</ul>
+
+<p>Attribution/source: TBD. Keep as local inspiration only until provenance is</p>
+<p>confirmed or replace with shop-generated imagery.</p>
 </body></html>

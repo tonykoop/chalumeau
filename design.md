@@ -14,8 +14,10 @@ mouthpiece, bore, and player pressure.
 ## Source Artifacts
 
 - Repo: `https://github.com/tonykoop/chalumeau`
-- Local inspiration photos: `images/chalumeau1.jpg`, `images/chalumeau5.jpg`,
-  and `images/7173-372-1_1920x1080.avif`
+- Attributed inspiration/reference photos: `images/chalumeau1.jpg` and
+  `images/chalumeau5.jpg`, from Petr Skalicky / Dudy.eu:
+  `https://www.dudy.eu/chalumeau.php`
+- Additional local inspiration image: `images/7173-372-1_1920x1080.avif`
 - Workbook inspected: `C:/Users/Tony/Documents/Claude/Projects/Career/flutes-staging/Musical Instruments.xlsx`
 - Relevant workbook source sheet: `Great Highland Bagpipe`, especially the
   contrast between conical double-reed chanter rows and cylindrical

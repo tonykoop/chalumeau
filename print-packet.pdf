@@ -4,13 +4,13 @@
 << /Type /Catalog /Pages 2 0 R >>
 endobj
 2 0 obj
-<< /Type /Pages /Kids [5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R 27 0 R 29 0 R 31 0 R 33 0 R 35 0 R] /Count 16 >>
+<< /Type /Pages /Kids [5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R 27 0 R 29 0 R 31 0 R 33 0 R 35 0 R 37 0 R] /Count 17 >>
 endobj
 3 0 obj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
 endobj
 4 0 obj
-<< /Length 2241 >>
+<< /Length 2290 >>
 stream
 BT
 /F1 10 Tf
@@ -44,6 +44,7 @@ T* (validation.  |) Tj
 T* (|  README.md  |  Project artifact.  |) Tj
 T* (|  SKILLS.md  |  Project artifact.  |) Tj
 T* (|  family-spec.csv  |  Project artifact.  |) Tj
+T* (|  image-attributions.md  |  Project artifact.  |) Tj
 T* () Tj
 T* (<div class="page-break"></div>) Tj
 T* () Tj
@@ -63,7 +64,6 @@ T* (optional handmade metal keywork. The family should cover a useful range) Tj
 T* (without pretending the first-pass physics is final: all tone-hole) Tj
 T* (coordinates are starting points that must be validated with a real reed,) Tj
 T* (mouthpiece, bore, and player pressure.) Tj
-T* () Tj
 ET
 endstream
 endobj
@@ -71,17 +71,20 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 4 0 R >>
 endobj
 6 0 obj
-<< /Length 2345 >>
+<< /Length 2358 >>
 stream
 BT
 /F1 10 Tf
 54 740 Td
 14 TL
-(SOURCE ARTIFACTS) Tj
+() Tj
+T* (SOURCE ARTIFACTS) Tj
 T* () Tj
 T* (- Repo: https://github.com/tonykoop/chalumeau) Tj
-T* (- Local inspiration photos: images/chalumeau1.jpg, images/chalumeau5.jpg,) Tj
-T* (and images/7173-372-1_1920x1080.avif) Tj
+T* (- Attributed inspiration/reference photos: images/chalumeau1.jpg and) Tj
+T* (images/chalumeau5.jpg, from Petr Skalicky / Dudy.eu:) Tj
+T* (https://www.dudy.eu/chalumeau.php) Tj
+T* (- Additional local inspiration image: images/7173-372-1_1920x1080.avif) Tj
 T* (- Workbook inspected: C:/Users/Tony/Documents/Claude/Projects/Career/flutes-staging/Musical) Tj
 T* (Instruments.xlsx) Tj
 T* (- Relevant workbook source sheet: Great Highland Bagpipe, especially the) Tj
@@ -122,9 +125,6 @@ T* (|  CLM-ALT-G3  |  Alto G  |  G3  |  0.625  |  16.939  |  18.439  |  1 body +
 T* (|) Tj
 T* (|  CLM-TEN-C3  |  Tenor C  |  C3  |  0.75  |  25.483  |  26.983  |  2 body joints + mouthpiece +) Tj
 T* (bell  |) Tj
-T* (|  CLM-BAS-F2  |  Bass F  |  F2  |  0.875  |  38.32  |  39.82  |  3 body joints + mouthpiece +) Tj
-T* (bell  |) Tj
-T* () Tj
 ET
 endstream
 endobj
@@ -132,13 +132,16 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 6 0 R >>
 endobj
 8 0 obj
-<< /Length 2481 >>
+<< /Length 2419 >>
 stream
 BT
 /F1 10 Tf
 54 740 Td
 14 TL
-(TONE-HOLE STRATEGY) Tj
+(|  CLM-BAS-F2  |  Bass F  |  F2  |  0.875  |  38.32  |  39.82  |  3 body joints + mouthpiece +) Tj
+T* (bell  |) Tj
+T* () Tj
+T* (TONE-HOLE STRATEGY) Tj
 T* () Tj
 T* (- The keyless core uses seven front holes for a diatonic octave:) Tj
 T* (offsets +2, +4, +5, +7, +9, +11, +12 semitones from the all-closed) Tj
@@ -183,9 +186,6 @@ T* (equation snippets are in cad/solidworks-equations.txt.) Tj
 T* () Tj
 T* (ASSUMPTIONS AND RISKS) Tj
 T* () Tj
-T* (|  Risk  |  Why it matters  |  Mitigation  |) Tj
-T* (|  ---  |  ---  |  ---  |) Tj
-T* (|  Reed/mouthpiece compliance shifts pitch  |  the reed is not a hard closed end  |  test with) Tj
 ET
 endstream
 endobj
@@ -193,13 +193,16 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 8 0 R >>
 endobj
 10 0 obj
-<< /Length 2877 >>
+<< /Length 2757 >>
 stream
 BT
 /F1 10 Tf
 54 740 Td
 14 TL
-(one commercial reed/mouthpiece before final hole tuning  |) Tj
+(|  Risk  |  Why it matters  |  Mitigation  |) Tj
+T* (|  ---  |  ---  |  ---  |) Tj
+T* (|  Reed/mouthpiece compliance shifts pitch  |  the reed is not a hard closed end  |  test with) Tj
+T* (one commercial reed/mouthpiece before final hole tuning  |) Tj
 T* (|  Tone holes are first-pass estimates  |  small holes do not act as perfect open ends  |  drill) Tj
 T* (undersized, tune larger, log every change  |) Tj
 T* (|  Bass holes exceed finger comfort  |  low instruments become large quickly  |  use key pads) Tj
@@ -244,9 +247,6 @@ T* (|  1  |  Body  |  Turned chalumeau body blanks  |  4  |  Cherry or hard mapl
 T* (ipe/cocobolo/boxwood for keeper builds  |  see family-spec.csv blank_length_in and) Tj
 T* (turning_blank_in  |  make  |  80  |  drawings/chalumeau-family-sheet.svg  |  Use lower-cost) Tj
 T* (domestic hardwood for bore and keywork tests before dense/oily woods.  |) Tj
-T* (|  2  |  Bore  |  Long drill and reamer set  |  1  |  Aircraft-length brad point/twist drills) Tj
-T* (plus adjustable/shell reamers  |  0.500, 0.625, 0.750, 0.875 in bore targets  |  buy  |  120  |) Tj
-T* (cnc/cnc-lathe-plan.md  |  Exact tooling depends on whether bores are drilled solid or routed as) Tj
 ET
 endstream
 endobj
@@ -254,13 +254,16 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 10 0 R >>
 endobj
 12 0 obj
-<< /Length 3964 >>
+<< /Length 4006 >>
 stream
 BT
 /F1 10 Tf
 54 740 Td
 14 TL
-(split blanks.  |) Tj
+(|  2  |  Bore  |  Long drill and reamer set  |  1  |  Aircraft-length brad point/twist drills) Tj
+T* (plus adjustable/shell reamers  |  0.500, 0.625, 0.750, 0.875 in bore targets  |  buy  |  120  |) Tj
+T* (cnc/cnc-lathe-plan.md  |  Exact tooling depends on whether bores are drilled solid or routed as) Tj
+T* (split blanks.  |) Tj
 T* (|  3  |  Mouthpiece  |  Single-reed mouthpieces  |  4  |  Purchased clarinet/sax mouthpiece) Tj
 T* (adapted by size, or shop-made Delrin mouthpiece  |  socket IDs in family-spec.csv; reed table in) Tj
 T* (design.md  |  buy first, make later  |  160  |  drawing-brief.md  |  Use bought) Tj
@@ -305,9 +308,6 @@ T* (|  Single reeds and mouthpieces  |  Soprano/alto use clarinet-like reeds; te
 T* (sax/low clarinet reeds or custom mouthpiece  |  clarinet mouthpiece blank baroque clarinet reed) Tj
 T* (tenor chalumeau mouthpiece  |  woodwind suppliers, early-music makers, 3D print/Delrin shop-made) Tj
 T* (option  |  not live-checked  |  research before purchase  |  research before purchase  |  Use) Tj
-T* (commercial reed first to decouple reed-making from bore tuning.  |  Reed strength and mouthpiece) Tj
-T* (volume can shift pitch and response significantly.  |) Tj
-T* (|  Brass/nickel-silver key stock  |  0.040-0.062 in sheet, 1/16 in rod, 0-80 or M1.6 screws,) Tj
 ET
 endstream
 endobj
@@ -315,13 +315,16 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 12 0 R >>
 endobj
 14 0 obj
-<< /Length 3906 >>
+<< /Length 3867 >>
 stream
 BT
 /F1 10 Tf
 54 740 Td
 14 TL
-(post stock  |  nickel silver sheet woodwind key rod phosphor bronze spring wire  |  McMaster-) Tj
+(commercial reed first to decouple reed-making from bore tuning.  |  Reed strength and mouthpiece) Tj
+T* (volume can shift pitch and response significantly.  |) Tj
+T* (|  Brass/nickel-silver key stock  |  0.040-0.062 in sheet, 1/16 in rod, 0-80 or M1.6 screws,) Tj
+T* (post stock  |  nickel silver sheet woodwind key rod phosphor bronze spring wire  |  McMaster-) Tj
 T* (Carr, K&S metals, MusicMedic, instrument repair suppliers  |  not live-checked  |  research) Tj
 T* (before purchase  |  research before purchase  |  Brass is easier to prototype; nickel silver) Tj
 T* (wears better and solders cleanly.  |  Tiny screws strip easily; buy extras and make drill) Tj
@@ -366,9 +369,6 @@ T* (|  CLM-BAS-F2-BODY  |  Bass F  |  prototype hardwood  |  1  |  1.875 x 1.875
 T* (bore 0.875; body length 38.32  |  lathe turn, drill/ream bore, drill tone holes, final tune  |) Tj
 T* (long grain parallel to bore  |  leave 1.5 in length allowance and 0.1875 in OD cleanup allowance) Tj
 T* (|) Tj
-T* (|  CLM-BAS-F2-BELL  |  Bass F  |  contrasting hardwood or same blank offcut  |  1  |  3.275 x) Tj
-T* (3.275 x 3.000  |  bell OD 2.9; socket fits bore/body OD by CAD  |  lathe turn bell flare and) Tj
-T* (socket  |  long grain parallel to bore  |  use a separate bell to simplify tuning and repair  |) Tj
 ET
 endstream
 endobj
@@ -376,13 +376,16 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 14 0 R >>
 endobj
 16 0 obj
-<< /Length 2072 >>
+<< /Length 2322 >>
 stream
 BT
 /F1 10 Tf
 54 740 Td
 14 TL
-() Tj
+(|  CLM-BAS-F2-BELL  |  Bass F  |  contrasting hardwood or same blank offcut  |  1  |  3.275 x) Tj
+T* (3.275 x 3.000  |  bell OD 2.9; socket fits bore/body OD by CAD  |  lathe turn bell flare and) Tj
+T* (socket  |  long grain parallel to bore  |  use a separate bell to simplify tuning and repair  |) Tj
+T* () Tj
 T* (<div class="page-break"></div>) Tj
 T* () Tj
 T* (DRAWING-BRIEF.MD) Tj
@@ -427,9 +430,6 @@ T* (NOTES FOR SOLIDWORKS) Tj
 T* () Tj
 T* (Drive dimensions from global variables. Do not dimension hole centers) Tj
 T* (manually in separate sketches unless the dimension names match the CSV.) Tj
-T* () Tj
-T* (<div class="page-break"></div>) Tj
-T* () Tj
 ET
 endstream
 endobj
@@ -437,13 +437,16 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 16 0 R >>
 endobj
 18 0 obj
-<< /Length 2087 >>
+<< /Length 2083 >>
 stream
 BT
 /F1 10 Tf
 54 740 Td
 14 TL
-(ASSEMBLY-MANUAL.MD) Tj
+() Tj
+T* (<div class="page-break"></div>) Tj
+T* () Tj
+T* (ASSEMBLY-MANUAL.MD) Tj
 T* () Tj
 T* (Shop-facing sequence, tools, fixtures, safety, tuning, finishing, and maintenance notes.) Tj
 T* () Tj
@@ -488,9 +491,6 @@ T* (3. Drill each hole 15-25 percent undersize.) Tj
 T* (4. Open holes from low to high. After each enlargement, play the target) Tj
 T* (note and log measured frequency.) Tj
 T* (5. Chamfer only after pitch is close; chamfering can sharpen the note.) Tj
-T* () Tj
-T* (PHASE 4 - OPTIONAL K01/K02 KEYWORK) Tj
-T* () Tj
 ET
 endstream
 endobj
@@ -498,13 +498,16 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 18 0 R >>
 endobj
 20 0 obj
-<< /Length 2673 >>
+<< /Length 2677 >>
 stream
 BT
 /F1 10 Tf
 54 740 Td
 14 TL
-(1. Drill keyed tone holes undersize.) Tj
+() Tj
+T* (PHASE 4 - OPTIONAL K01/K02 KEYWORK) Tj
+T* () Tj
+T* (1. Drill keyed tone holes undersize.) Tj
 T* (2. Fabricate levers using hardware/lever-fabrication-guide.md.) Tj
 T* (3. Install posts and pivot rods.) Tj
 T* (4. Seat pads and leak-test before tuning.) Tj
@@ -549,9 +552,6 @@ T* (|  VAL-040  |  experimental register key  |  overblown twelfth check  |  not
 T* (vent is clarinet-like  |    |  document response only; not a first-build pass/fail  |  same reed) Tj
 T* (and embouchure as low-register test  |    |  Move/resize vent only after the core chalumeau) Tj
 T* (speaks well.  |) Tj
-T* () Tj
-T* (<div class="page-break"></div>) Tj
-T* () Tj
 ET
 endstream
 endobj
@@ -559,13 +559,16 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 20 0 R >>
 endobj
 22 0 obj
-<< /Length 1702 >>
+<< /Length 1726 >>
 stream
 BT
 /F1 10 Tf
 54 740 Td
 14 TL
-(SUPPLIER-RFQ.MD) Tj
+() Tj
+T* (<div class="page-break"></div>) Tj
+T* () Tj
+T* (SUPPLIER-RFQ.MD) Tj
 T* () Tj
 T* (Supplier email/request-for-quote starter.) Tj
 T* () Tj
@@ -610,9 +613,6 @@ T* () Tj
 T* (Art direction for an image-forward visual BOM.) Tj
 T* () Tj
 T* (VISUAL BOM BRIEF) Tj
-T* () Tj
-T* (LAYOUT) Tj
-T* () Tj
 ET
 endstream
 endobj
@@ -620,21 +620,26 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 22 0 R >>
 endobj
 24 0 obj
-<< /Length 1905 >>
+<< /Length 1852 >>
 stream
 BT
 /F1 10 Tf
 54 740 Td
 14 TL
-(Use the Ashiko visual BOM pattern: hero image at the top, spreadsheet) Tj
+() Tj
+T* (LAYOUT) Tj
+T* () Tj
+T* (Use the Ashiko visual BOM pattern: hero image at the top, spreadsheet) Tj
 T* (rows below, and one part image/render per row. Use the actual local) Tj
 T* (chalumeau photos for the hero/inspiration image until Tony has shop) Tj
 T* (photos of the prototypes.) Tj
 T* () Tj
 T* (REAL IMAGES AVAILABLE) Tj
 T* () Tj
-T* (- images/chalumeau1.jpg: full instrument inspiration.) Tj
-T* (- images/chalumeau5.jpg: close-up of raised collars and wood finish.) Tj
+T* (- images/chalumeau1.jpg: full instrument inspiration, attributed to) Tj
+T* (Petr Skalicky / Dudy.eu, https://www.dudy.eu/chalumeau.php.) Tj
+T* (- images/chalumeau5.jpg: close-up of raised collars and wood finish,) Tj
+T* (attributed to Petr Skalicky / Dudy.eu, https://www.dudy.eu/chalumeau.php.) Tj
 T* (- images/7173-372-1_1920x1080.avif: additional inspiration image,) Tj
 T* (not universally supported by all renderers.) Tj
 T* () Tj
@@ -669,11 +674,6 @@ T* () Tj
 T* (ClearAll["Global"];) Tj
 T* () Tj
 T* (speedOfSoundInPerSec = 13552.0;) Tj
-T* (midiFrequency[m_] := 4402^\(\(m - 69\)/12\);) Tj
-T* (centsError[measured_, target_] := 1200Log2[measured/target];) Tj
-T* () Tj
-T* (bodyLength[rootMidi_, boreID_] := Module[) Tj
-T* ({f = midiFrequency[rootMidi], acoustic, bellCorr, reedCorr},) Tj
 ET
 endstream
 endobj
@@ -681,13 +681,18 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 24 0 R >>
 endobj
 26 0 obj
-<< /Length 1730 >>
+<< /Length 1825 >>
 stream
 BT
 /F1 10 Tf
 54 740 Td
 14 TL
-(acoustic = speedOfSoundInPerSec/\(4f\);) Tj
+(midiFrequency[m_] := 4402^\(\(m - 69\)/12\);) Tj
+T* (centsError[measured_, target_] := 1200Log2[measured/target];) Tj
+T* () Tj
+T* (bodyLength[rootMidi_, boreID_] := Module[) Tj
+T* ({f = midiFrequency[rootMidi], acoustic, bellCorr, reedCorr},) Tj
+T* (acoustic = speedOfSoundInPerSec/\(4f\);) Tj
 T* (bellCorr = 0.61\(boreID/2\);) Tj
 T* (reedCorr = 0.25boreID;) Tj
 T* (acoustic - bellCorr - reedCorr) Tj
@@ -730,11 +735,6 @@ T* (];) Tj
 T* () Tj
 T* (Dataset[familyTable]) Tj
 T* () Tj
-T* (Manipulate[) Tj
-T* (Plot[) Tj
-T* (speedOfSoundInPerSec/\(4\(x + 0.61\(bore/2\) + 0.25bore\)\),) Tj
-T* ({x, 4, 42},) Tj
-T* (PlotRange -> {80, 700},) Tj
 ET
 endstream
 endobj
@@ -742,13 +742,18 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 26 0 R >>
 endobj
 28 0 obj
-<< /Length 2138 >>
+<< /Length 1872 >>
 stream
 BT
 /F1 10 Tf
 54 740 Td
 14 TL
-(AxesLabel -> {"Body length \(in\)", "Frequency \(Hz\)"},) Tj
+(Manipulate[) Tj
+T* (Plot[) Tj
+T* (speedOfSoundInPerSec/\(4\(x + 0.61\(bore/2\) + 0.25bore\)\),) Tj
+T* ({x, 4, 42},) Tj
+T* (PlotRange -> {80, 700},) Tj
+T* (AxesLabel -> {"Body length \(in\)", "Frequency \(Hz\)"},) Tj
 T* (PlotLabel -> "Stopped cylindrical reed bore first-pass model") Tj
 T* (],) Tj
 T* ({{bore, 0.5, "Bore ID \(in\)"}, 0.35, 1.0}) Tj
@@ -768,6 +773,20 @@ T* (> keyless folk-pipe simplicity first, optional handmade two-key metalwork) T
 T* (> second, and a documented path toward clarinet-style register experiments.) Tj
 T* () Tj
 T* () Tj
+T* (Photo/reference instrument by Petr Skalicky / Dudy.eu, from) Tj
+T* (dudy.eu/chalumeau.php. Used here) Tj
+T* (as an attributed design reference, not as Tony's own build photo.) Tj
+T* () Tj
+T* (GITHUB REPO METADATA) Tj
+T* () Tj
+T* (Description: Parametric build packet for a handmade chalumeau family,) Tj
+T* (including stopped-reed acoustics, tone-hole schedules, SolidWorks design) Tj
+T* (tables, and DIY keywork.) Tj
+T* () Tj
+T* (Suggested topics: chalumeau, woodwind, single-reed,) Tj
+T* (clarinet-history, instrument-making, parametric-design,) Tj
+T* (solidworks, acoustic-modeling, cnc-lathe, woodworking,) Tj
+T* (music-technology, build-packet) Tj
 T* () Tj
 T* (WHAT THIS IS) Tj
 T* () Tj
@@ -777,12 +796,25 @@ T* (C, and bass F. The design is parametric: body length, bore, tone-hole) Tj
 T* (positions, and optional levers are driven from formulas rather than) Tj
 T* (hidden one-off dimensions.) Tj
 T* () Tj
-T* (The packet starts from the local inspiration photos in images/, Tony's) Tj
-T* (Musical Instruments.xlsx workbook, and especially the reed/bore lessons) Tj
-T* (in the Great Highland Bagpipe sheet. The acoustic model is not copied) Tj
-T* (from Native American style flute K2 corrections. A chalumeau is a) Tj
-T* (cylindrical, single-reed, effectively stopped pipe, so it gets its own) Tj
-T* (validation loop.) Tj
+ET
+endstream
+endobj
+29 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 28 0 R >>
+endobj
+30 0 obj
+<< /Length 2637 >>
+stream
+BT
+/F1 10 Tf
+54 740 Td
+14 TL
+(The packet starts from attributed Dudy.eu chalumeau reference photos in) Tj
+T* (images/, Tony's Musical Instruments.xlsx workbook, and especially) Tj
+T* (the reed/bore lessons in the Great Highland Bagpipe sheet. The) Tj
+T* (acoustic model is not copied from Native American style flute K2) Tj
+T* (corrections. A chalumeau is a cylindrical, single-reed, effectively) Tj
+T* (stopped pipe, so it gets its own validation loop.) Tj
 T* () Tj
 T* (FAMILY PLAN) Tj
 T* () Tj
@@ -796,20 +828,7 @@ T* (|  CLM-TEN-C3  |  Tenor C  |  C3  |  0.75  |  25.483  |  26.983  |  2 body j
 T* (bell  |) Tj
 T* (|  CLM-BAS-F2  |  Bass F  |  F2  |  0.875  |  38.32  |  39.82  |  3 body joints + mouthpiece +) Tj
 T* (bell  |) Tj
-ET
-endstream
-endobj
-29 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 28 0 R >>
-endobj
-30 0 obj
-<< /Length 2549 >>
-stream
-BT
-/F1 10 Tf
-54 740 Td
-14 TL
-() Tj
+T* () Tj
 T* (The recommended build order is CLM-SOP-C4 first, with no levers, using) Tj
 T* (a commercial reed/mouthpiece. Once that speaks cleanly, add the two) Tj
 T* (optional levers to the same body or a second soprano body. Then scale up) Tj
@@ -838,7 +857,20 @@ T* (register.) Tj
 T* (- hardware/lever-fabrication-guide.md: how to make the metal levers,) Tj
 T* (pads, pivots, and springs yourself.) Tj
 T* (- cad/solidworks-design-table.csv: SolidWorks configuration table.) Tj
-T* (- cad/solidworks-global-variables.md: variable naming conventions and) Tj
+ET
+endstream
+endobj
+31 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 30 0 R >>
+endobj
+32 0 obj
+<< /Length 2072 >>
+stream
+BT
+/F1 10 Tf
+54 740 Td
+14 TL
+(- cad/solidworks-global-variables.md: variable naming conventions and) Tj
 T* (equation pattern.) Tj
 T* (- drawings/: SVG drawing sheets for the family, soprano C, and keywork.) Tj
 T* (- assembly-manual.md, bom.csv, sourcing.csv, cut-list.csv,) Tj
@@ -857,27 +889,15 @@ T* (|  Parametric family table  |  complete, with formulas and SolidWorks export
 T* (|  Keywork concept  |  two-key handmade lever system specified  |) Tj
 T* (|  Manufacturing drawings  |  SVG first-pass sheets complete  |) Tj
 T* (|  Shop build method  |  complete for prototype workflow  |) Tj
-ET
-endstream
-endobj
-31 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 30 0 R >>
-endobj
-32 0 obj
-<< /Length 1868 >>
-stream
-BT
-/F1 10 Tf
-54 740 Td
-14 TL
-(|  Tuning validation  |  template ready; needs measured prototype data  |) Tj
+T* (|  Tuning validation  |  template ready; needs measured prototype data  |) Tj
 T* (|  SolidWorks  |  variable conventions and design table ready  |) Tj
 T* () Tj
 T* (LICENSE) Tj
 T* () Tj
-T* (Released under CC-BY 4.0. Source photos remain whatever their) Tj
-T* (original provenance allows; use the local images as inspiration and replace) Tj
-T* (with shop photos as prototypes are built.) Tj
+T* (Released under CC-BY 4.0 for original written/design content) Tj
+T* (in this repository. The Dudy.eu reference photos are attributed source) Tj
+T* (images, not Tony-owned build photos; replace them with shop photos as) Tj
+T* (prototypes are built.) Tj
 T* () Tj
 T* (<div class="page-break"></div>) Tj
 T* () Tj
@@ -898,7 +918,20 @@ T* (Designs and fabricates simple early-woodwind levers using brass or) Tj
 T* (nickel silver, pivot rods, pads, posts, and springs.) Tj
 T* () Tj
 T* (SOLIDWORKS-PARAMETRIC-FAMILY-TABLE) Tj
-T* () Tj
+ET
+endstream
+endobj
+33 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 32 0 R >>
+endobj
+34 0 obj
+<< /Length 2463 >>
+stream
+BT
+/F1 10 Tf
+54 740 Td
+14 TL
+() Tj
 T* (Uses one design table to drive multiple instrument-family) Tj
 T* (configurations, with stable named dimensions that match CSV, drawings,) Tj
 T* (and validation logs.) Tj
@@ -918,20 +951,7 @@ T* () Tj
 T* (|  instrument_id  |  variant  |  root_note  |  root_midi  |  root_frequency_hz  |  bore_id_in  |) Tj
 T* (wall_thickness_in  |  body_od_in  |  bell_od_in  |  acoustic_length_in  |  body_length_final_in) Tj
 T* (|  blank_length_in  |  turning_blank_in  |  sections  |  build_priority  |  status  |) Tj
-ET
-endstream
-endobj
-33 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 32 0 R >>
-endobj
-34 0 obj
-<< /Length 1316 >>
-stream
-BT
-/F1 10 Tf
-54 740 Td
-14 TL
-(|  ---  |  ---  |  ---  |  ---  |  ---  |  ---  |  ---  |  ---  |  ---  |  ---  |  ---  |  ---) Tj
+T* (|  ---  |  ---  |  ---  |  ---  |  ---  |  ---  |  ---  |  ---  |  ---  |  ---  |  ---  |  ---) Tj
 T* (|  ---  |  ---  |  ---  |  ---  |) Tj
 T* (|  CLM-SOP-C4  |  Soprano C  |  C4  |  60  |  261.63  |  0.5  |  0.188  |  0.875  |  1.65  |) Tj
 T* (12.95  |  12.672  |  14.172  |  1.25 x 1.25 x 14.172  |  1 body + mouthpiece + bell  |) Tj
@@ -945,52 +965,94 @@ T* (Prototype 3  |  first-order design; validate after reed and bore prototype  
 T* (|  CLM-BAS-F2  |  Bass F  |  F2  |  41  |  87.31  |  0.875  |  0.313  |  1.5  |  2.9  |  38.806) Tj
 T* (|  38.32  |  39.82  |  1.875 x 1.875 x 39.82  |  3 body joints + mouthpiece + bell  |  Stretch) Tj
 T* (prototype  |  first-order design; validate after reed and bore prototype  |) Tj
+T* () Tj
+T* (<div class="page-break"></div>) Tj
+T* () Tj
+T* (IMAGE-ATTRIBUTIONS.MD) Tj
+T* () Tj
+T* (Project artifact.) Tj
+T* () Tj
+T* (IMAGE ATTRIBUTIONS) Tj
+T* () Tj
+T* (DUDY.EU CHALUMEAU REFERENCE PHOTOS) Tj
+T* () Tj
+T* (- images/chalumeau1.jpg) Tj
+T* (- images/chalumeau5.jpg) Tj
+T* () Tj
 ET
 endstream
 endobj
 35 0 obj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 34 0 R >>
 endobj
+36 0 obj
+<< /Length 596 >>
+stream
+BT
+/F1 10 Tf
+54 740 Td
+14 TL
+(Attribution: Petr Skalicky / Dudy.eu, chalumeau reference page:) Tj
+T* (https://www.dudy.eu/chalumeau.php) Tj
+T* () Tj
+T* (Use in this repo: attributed visual reference for form, finish, raised) Tj
+T* (tone-hole collars, mouthpiece layout, and bell styling. These are not Tony's) Tj
+T* (own build photos.) Tj
+T* () Tj
+T* (ADDITIONAL LOCAL INSPIRATION IMAGE) Tj
+T* () Tj
+T* (- images/7173-372-1_1920x1080.avif) Tj
+T* () Tj
+T* (Attribution/source: TBD. Keep as local inspiration only until provenance is) Tj
+T* (confirmed or replace with shop-generated imagery.) Tj
+ET
+endstream
+endobj
+37 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 36 0 R >>
+endobj
 xref
-0 36
+0 38
 0000000000 65535 f 
 0000000015 00000 n 
 0000000064 00000 n 
-0000000225 00000 n 
-0000000295 00000 n 
-0000002588 00000 n 
-0000002714 00000 n 
-0000005111 00000 n 
-0000005237 00000 n 
-0000007770 00000 n 
-0000007896 00000 n 
-0000010826 00000 n 
-0000010954 00000 n 
-0000014971 00000 n 
-0000015099 00000 n 
-0000019058 00000 n 
-0000019186 00000 n 
-0000021311 00000 n 
-0000021439 00000 n 
-0000023579 00000 n 
-0000023707 00000 n 
-0000026433 00000 n 
-0000026561 00000 n 
-0000028316 00000 n 
-0000028444 00000 n 
-0000030402 00000 n 
-0000030530 00000 n 
-0000032313 00000 n 
-0000032441 00000 n 
-0000034632 00000 n 
-0000034760 00000 n 
-0000037362 00000 n 
-0000037490 00000 n 
-0000039411 00000 n 
-0000039539 00000 n 
-0000040908 00000 n 
+0000000232 00000 n 
+0000000302 00000 n 
+0000002644 00000 n 
+0000002770 00000 n 
+0000005180 00000 n 
+0000005306 00000 n 
+0000007777 00000 n 
+0000007903 00000 n 
+0000010713 00000 n 
+0000010841 00000 n 
+0000014900 00000 n 
+0000015028 00000 n 
+0000018948 00000 n 
+0000019076 00000 n 
+0000021451 00000 n 
+0000021579 00000 n 
+0000023715 00000 n 
+0000023843 00000 n 
+0000026573 00000 n 
+0000026701 00000 n 
+0000028480 00000 n 
+0000028608 00000 n 
+0000030513 00000 n 
+0000030641 00000 n 
+0000032519 00000 n 
+0000032647 00000 n 
+0000034572 00000 n 
+0000034700 00000 n 
+0000037390 00000 n 
+0000037518 00000 n 
+0000039643 00000 n 
+0000039771 00000 n 
+0000042287 00000 n 
+0000042415 00000 n 
+0000043063 00000 n 
 trailer
-<< /Size 36 /Root 1 0 R >>
+<< /Size 38 /Root 1 0 R >>
 startxref
-41036
+43191
 %%EOF

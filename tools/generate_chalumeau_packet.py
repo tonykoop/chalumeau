@@ -666,6 +666,20 @@ def write_markdown_docs() -> None:
         > second, and a documented path toward clarinet-style register experiments.
 
         ![Inspiration chalumeau with turned wood body, raised tone-hole collars, black mouthpiece, and flared bell](images/chalumeau1.jpg)
+        *Photo/reference instrument by Petr Skalicky / Dudy.eu, from
+        [dudy.eu/chalumeau.php](https://www.dudy.eu/chalumeau.php). Used here
+        as an attributed design reference, not as Tony's own build photo.*
+
+        ## GitHub Repo Metadata
+
+        **Description:** Parametric build packet for a handmade chalumeau family,
+        including stopped-reed acoustics, tone-hole schedules, SolidWorks design
+        tables, and DIY keywork.
+
+        **Suggested topics:** `chalumeau`, `woodwind`, `single-reed`,
+        `clarinet-history`, `instrument-making`, `parametric-design`,
+        `solidworks`, `acoustic-modeling`, `cnc-lathe`, `woodworking`,
+        `music-technology`, `build-packet`
 
         ## What this is
 
@@ -675,12 +689,12 @@ def write_markdown_docs() -> None:
         positions, and optional levers are driven from formulas rather than
         hidden one-off dimensions.
 
-        The packet starts from the local inspiration photos in `images/`, Tony's
-        `Musical Instruments.xlsx` workbook, and especially the reed/bore lessons
-        in the `Great Highland Bagpipe` sheet. The acoustic model is not copied
-        from Native American style flute K2 corrections. A chalumeau is a
-        cylindrical, single-reed, effectively stopped pipe, so it gets its own
-        validation loop.
+        The packet starts from attributed Dudy.eu chalumeau reference photos in
+        `images/`, Tony's `Musical Instruments.xlsx` workbook, and especially
+        the reed/bore lessons in the `Great Highland Bagpipe` sheet. The
+        acoustic model is not copied from Native American style flute K2
+        corrections. A chalumeau is a cylindrical, single-reed, effectively
+        stopped pipe, so it gets its own validation loop.
 
         ## Family plan
 
@@ -738,9 +752,10 @@ def write_markdown_docs() -> None:
 
         ## License
 
-        Released under [CC-BY 4.0](LICENSE). Source photos remain whatever their
-        original provenance allows; use the local images as inspiration and replace
-        with shop photos as prototypes are built.
+        Released under [CC-BY 4.0](LICENSE) for original written/design content
+        in this repository. The Dudy.eu reference photos are attributed source
+        images, not Tony-owned build photos; replace them with shop photos as
+        prototypes are built.
         """,
     )
 
@@ -763,8 +778,10 @@ def write_markdown_docs() -> None:
         ## Source Artifacts
 
         - Repo: `https://github.com/tonykoop/chalumeau`
-        - Local inspiration photos: `images/chalumeau1.jpg`, `images/chalumeau5.jpg`,
-          and `images/7173-372-1_1920x1080.avif`
+        - Attributed inspiration/reference photos: `images/chalumeau1.jpg` and
+          `images/chalumeau5.jpg`, from Petr Skalicky / Dudy.eu:
+          `https://www.dudy.eu/chalumeau.php`
+        - Additional local inspiration image: `images/7173-372-1_1920x1080.avif`
         - Workbook inspected: `C:/Users/Tony/Documents/Claude/Projects/Career/flutes-staging/Musical Instruments.xlsx`
         - Relevant workbook source sheet: `Great Highland Bagpipe`, especially the
           contrast between conical double-reed chanter rows and cylindrical
@@ -1231,8 +1248,10 @@ def write_markdown_docs() -> None:
 
         ## Real Images Available
 
-        - `images/chalumeau1.jpg`: full instrument inspiration.
-        - `images/chalumeau5.jpg`: close-up of raised collars and wood finish.
+        - `images/chalumeau1.jpg`: full instrument inspiration, attributed to
+          Petr Skalicky / Dudy.eu, `https://www.dudy.eu/chalumeau.php`.
+        - `images/chalumeau5.jpg`: close-up of raised collars and wood finish,
+          attributed to Petr Skalicky / Dudy.eu, `https://www.dudy.eu/chalumeau.php`.
         - `images/7173-372-1_1920x1080.avif`: additional inspiration image,
           not universally supported by all renderers.
 

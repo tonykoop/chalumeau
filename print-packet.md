@@ -20,6 +20,7 @@ Packet folder: `/mnt/c/Users/Tony/Documents/GitHub/chalumeau`
 | `README.md` | Project artifact. |
 | `SKILLS.md` | Project artifact. |
 | `family-spec.csv` | Project artifact. |
+| `image-attributions.md` | Project artifact. |
 
 <div class="page-break"></div>
 
@@ -43,8 +44,10 @@ mouthpiece, bore, and player pressure.
 ## Source Artifacts
 
 - Repo: `https://github.com/tonykoop/chalumeau`
-- Local inspiration photos: `images/chalumeau1.jpg`, `images/chalumeau5.jpg`,
-  and `images/7173-372-1_1920x1080.avif`
+- Attributed inspiration/reference photos: `images/chalumeau1.jpg` and
+  `images/chalumeau5.jpg`, from Petr Skalicky / Dudy.eu:
+  `https://www.dudy.eu/chalumeau.php`
+- Additional local inspiration image: `images/7173-372-1_1920x1080.avif`
 - Workbook inspected: `C:/Users/Tony/Documents/Claude/Projects/Career/flutes-staging/Musical Instruments.xlsx`
 - Relevant workbook source sheet: `Great Highland Bagpipe`, especially the
   contrast between conical double-reed chanter rows and cylindrical
@@ -388,8 +391,10 @@ photos of the prototypes.
 
 ## Real Images Available
 
-- `images/chalumeau1.jpg`: full instrument inspiration.
-- `images/chalumeau5.jpg`: close-up of raised collars and wood finish.
+- `images/chalumeau1.jpg`: full instrument inspiration, attributed to
+  Petr Skalicky / Dudy.eu, `https://www.dudy.eu/chalumeau.php`.
+- `images/chalumeau5.jpg`: close-up of raised collars and wood finish,
+  attributed to Petr Skalicky / Dudy.eu, `https://www.dudy.eu/chalumeau.php`.
 - `images/7173-372-1_1920x1080.avif`: additional inspiration image,
   not universally supported by all renderers.
 
@@ -497,6 +502,20 @@ Project artifact.
 > second, and a documented path toward clarinet-style register experiments.
 
 ![Inspiration chalumeau with turned wood body, raised tone-hole collars, black mouthpiece, and flared bell](images/chalumeau1.jpg)
+*Photo/reference instrument by Petr Skalicky / Dudy.eu, from
+[dudy.eu/chalumeau.php](https://www.dudy.eu/chalumeau.php). Used here
+as an attributed design reference, not as Tony's own build photo.*
+
+## GitHub Repo Metadata
+
+**Description:** Parametric build packet for a handmade chalumeau family,
+including stopped-reed acoustics, tone-hole schedules, SolidWorks design
+tables, and DIY keywork.
+
+**Suggested topics:** `chalumeau`, `woodwind`, `single-reed`,
+`clarinet-history`, `instrument-making`, `parametric-design`,
+`solidworks`, `acoustic-modeling`, `cnc-lathe`, `woodworking`,
+`music-technology`, `build-packet`
 
 ## What this is
 
@@ -506,12 +525,12 @@ C, and bass F. The design is parametric: body length, bore, tone-hole
 positions, and optional levers are driven from formulas rather than
 hidden one-off dimensions.
 
-The packet starts from the local inspiration photos in `images/`, Tony's
-`Musical Instruments.xlsx` workbook, and especially the reed/bore lessons
-in the `Great Highland Bagpipe` sheet. The acoustic model is not copied
-from Native American style flute K2 corrections. A chalumeau is a
-cylindrical, single-reed, effectively stopped pipe, so it gets its own
-validation loop.
+The packet starts from attributed Dudy.eu chalumeau reference photos in
+`images/`, Tony's `Musical Instruments.xlsx` workbook, and especially
+the reed/bore lessons in the `Great Highland Bagpipe` sheet. The
+acoustic model is not copied from Native American style flute K2
+corrections. A chalumeau is a cylindrical, single-reed, effectively
+stopped pipe, so it gets its own validation loop.
 
 ## Family plan
 
@@ -574,9 +593,10 @@ trills, low extensions, and better intonation.
 
 ## License
 
-Released under [CC-BY 4.0](LICENSE). Source photos remain whatever their
-original provenance allows; use the local images as inspiration and replace
-with shop photos as prototypes are built.
+Released under [CC-BY 4.0](LICENSE) for original written/design content
+in this repository. The Dudy.eu reference photos are attributed source
+images, not Tony-owned build photos; replace them with shop photos as
+prototypes are built.
 
 <div class="page-break"></div>
 
@@ -620,3 +640,30 @@ Project artifact.
 | CLM-ALT-G3 | Alto G | G3 | 55 | 196.0 | 0.625 | 0.219 | 1.063 | 1.95 | 17.286 | 16.939 | 18.439 | 1.438 x 1.438 x 18.439 | 1 body + mouthpiece + bell | Prototype 2 | first-order design; validate after reed and bore prototype |
 | CLM-TEN-C3 | Tenor C | C3 | 48 | 130.81 | 0.75 | 0.25 | 1.25 | 2.35 | 25.9 | 25.483 | 26.983 | 1.625 x 1.625 x 26.983 | 2 body joints + mouthpiece + bell | Prototype 3 | first-order design; validate after reed and bore prototype |
 | CLM-BAS-F2 | Bass F | F2 | 41 | 87.31 | 0.875 | 0.313 | 1.5 | 2.9 | 38.806 | 38.32 | 39.82 | 1.875 x 1.875 x 39.82 | 3 body joints + mouthpiece + bell | Stretch prototype | first-order design; validate after reed and bore prototype |
+
+<div class="page-break"></div>
+
+## image-attributions.md
+
+Project artifact.
+
+# Image Attributions
+
+## Dudy.eu Chalumeau Reference Photos
+
+- `images/chalumeau1.jpg`
+- `images/chalumeau5.jpg`
+
+Attribution: Petr Skalicky / Dudy.eu, chalumeau reference page:
+https://www.dudy.eu/chalumeau.php
+
+Use in this repo: attributed visual reference for form, finish, raised
+tone-hole collars, mouthpiece layout, and bell styling. These are not Tony's
+own build photos.
+
+## Additional Local Inspiration Image
+
+- `images/7173-372-1_1920x1080.avif`
+
+Attribution/source: TBD. Keep as local inspiration only until provenance is
+confirmed or replace with shop-generated imagery.

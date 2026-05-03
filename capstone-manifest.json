@@ -15,7 +15,8 @@
     "wolfram-starter.wl",
     "README.md",
     "SKILLS.md",
-    "family-spec.csv"
+    "family-spec.csv",
+    "image-attributions.md"
   ],
   "outputs": {
     "capstone_deck_markdown": "/mnt/c/Users/Tony/Documents/GitHub/chalumeau/capstone-deck.md",
