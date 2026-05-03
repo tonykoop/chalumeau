@@ -7,24 +7,24 @@ Packet folder: `/mnt/c/Users/Tony/Documents/GitHub/chalumeau`
 
 | File | Purpose |
 | --- | --- |
-| `design.md` | Project intent, catalog metadata, assumptions, and validation plan. |
-| `bom.csv` | Starter bill of materials with part categories, quantities, drawing refs, and notes. |
-| `sourcing.csv` | Supplier/search tracker with specs, price/date fields, lead time, substitutes, and risks. |
-| `cut-list.csv` | Rough/final stock sizes, material, grain/orientation, operations, yield, and offcuts. |
-| `drawing-brief.md` | Manufacturing drawing and technical product sketch brief. |
-| `assembly-manual.md` | Shop-facing sequence, tools, fixtures, safety, tuning, finishing, and maintenance notes. |
-| `validation.csv` | Target/measured values, tolerance, environment, result, and tuning/build action log. |
-| `supplier-rfq.md` | Supplier email/request-for-quote starter. |
-| `visual-bom-brief.md` | Art direction for an image-forward visual BOM. |
-| `wolfram-starter.wl` | Wolfram starter for physics, optimization, visualization, and validation. |
+| `../packet/design.md` | Project intent, catalog metadata, assumptions, and validation plan. |
+| `../packet/bom.csv` | Starter bill of materials with part categories, quantities, drawing refs, and notes. |
+| `../packet/sourcing.csv` | Supplier/search tracker with specs, price/date fields, lead time, substitutes, and risks. |
+| `../packet/cut-list.csv` | Rough/final stock sizes, material, grain/orientation, operations, yield, and offcuts. |
+| `../packet/drawing-brief.md` | Manufacturing drawing and technical product sketch brief. |
+| `../packet/assembly-manual.md` | Shop-facing sequence, tools, fixtures, safety, tuning, finishing, and maintenance notes. |
+| `../packet/validation.csv` | Target/measured values, tolerance, environment, result, and tuning/build action log. |
+| `../packet/supplier-rfq.md` | Supplier email/request-for-quote starter. |
+| `../packet/visual-bom-brief.md` | Art direction for an image-forward visual BOM. |
+| `../packet/wolfram-starter.wl` | Wolfram starter for physics, optimization, visualization, and validation. |
 | `README.md` | Project artifact. |
-| `SKILLS.md` | Project artifact. |
-| `family-spec.csv` | Project artifact. |
-| `image-attributions.md` | Project artifact. |
+| `../../docs/SKILLS.md` | Project artifact. |
+| `../packet/family-spec.csv` | Project artifact. |
+| `../../docs/image-attributions.md` | Project artifact. |
 
 <div class="page-break"></div>
 
-## design.md
+## ../packet/design.md
 
 Project intent, catalog metadata, assumptions, and validation plan.
 
@@ -44,10 +44,10 @@ mouthpiece, bore, and player pressure.
 ## Source Artifacts
 
 - Repo: `https://github.com/tonykoop/chalumeau`
-- Attributed inspiration/reference photos: `images/chalumeau1.jpg` and
-  `images/chalumeau5.jpg`, from Petr Skalicky / Dudy.eu:
+- Attributed inspiration/reference photos: `../../assets/images/chalumeau1.jpg` and
+  `../../assets/images/chalumeau5.jpg`, from Petr Skalicky / Dudy.eu:
   `https://www.dudy.eu/chalumeau.php`
-- Additional local inspiration image: `images/7173-372-1_1920x1080.avif`
+- Additional local inspiration image: `../../assets/images/7173-372-1_1920x1080.avif`
 - Workbook inspected: `C:/Users/Tony/Documents/Claude/Projects/Career/flutes-staging/Musical Instruments.xlsx`
 - Relevant workbook source sheet: `Great Highland Bagpipe`, especially the
   contrast between conical double-reed chanter rows and cylindrical
@@ -122,8 +122,8 @@ use stable hole IDs that match the CSV and drawings:
 - `CLM_K01_X_Bell_in`, `CLM_K01_Dia_in`
 - `CLM_Key_Pivot_Rod_Dia_in`, `CLM_Pad_Overhang_in`
 
-The SolidWorks design table is `cad/solidworks-design-table.csv`. The
-equation snippets are in `cad/solidworks-equations.txt`.
+The SolidWorks design table is `../cad/solidworks-design-table.csv`. The
+equation snippets are in `../cad/solidworks-equations.txt`.
 
 ## Assumptions And Risks
 
@@ -155,33 +155,33 @@ equation snippets are in `cad/solidworks-equations.txt`.
   image or plain chamfered holes for faster tuning.
 - Model `CLM-SOP-C4` in SolidWorks using the provided global variables.
 - After first measurements, add a `prototype_correction_pct` column to
-  `data/tone-hole-schedule.csv`.
+  `../data/tone-hole-schedule.csv`.
 
 <div class="page-break"></div>
 
-## bom.csv
+## ../packet/bom.csv
 
 Starter bill of materials with part categories, quantities, drawing refs, and notes.
 
 | item_no | subsystem | part_name | qty | material_spec | dimensions_spec | make_buy | estimated_cost | drawing_ref | notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Body | Turned chalumeau body blanks | 4 | Cherry or hard maple for first pass; ipe/cocobolo/boxwood for keeper builds | see family-spec.csv blank_length_in and turning_blank_in | make | 80 | drawings/chalumeau-family-sheet.svg | Use lower-cost domestic hardwood for bore and keywork tests before dense/oily woods. |
-| 2 | Bore | Long drill and reamer set | 1 | Aircraft-length brad point/twist drills plus adjustable/shell reamers | 0.500, 0.625, 0.750, 0.875 in bore targets | buy | 120 | cnc/cnc-lathe-plan.md | Exact tooling depends on whether bores are drilled solid or routed as split blanks. |
-| 3 | Mouthpiece | Single-reed mouthpieces | 4 | Purchased clarinet/sax mouthpiece adapted by size, or shop-made Delrin mouthpiece | socket IDs in family-spec.csv; reed table in design.md | buy first, make later | 160 | drawing-brief.md | Use bought mouthpieces/reeds to isolate body acoustics before making reeds. |
-| 4 | Tone holes | Raised tone-hole collars or drilled holes | 36 | Integral turned collars for visual style; chamfered holes for first prototype | see data/tone-hole-schedule.csv | make | 20 | drawings/chalumeau-soprano-c4-dimensioned.svg | Collars are visual and ergonomic; pitch comes from hole center, diameter, and chimney. |
-| 5 | Keywork | Two-key chalumeau lever set | 4 | 0.040-0.062 in brass/nickel silver sheet, 1/16 in pivot rod, phosphor bronze spring | K01 and K02 per variant; see hardware/keywork-parts.csv | make | 60 | drawings/keywork-lever-detail.svg | The first soprano can be built keyless, then retrofitted with keys. |
-| 6 | Pads | Leather/cork/felt pad stack | 12 | Clarinet-style skin pads or cork backed with thin leather | pad OD = tone hole OD + 0.080 to 0.125 in | buy or make | 35 | hardware/lever-fabrication-guide.md | Use leak light or suction test before tuning. |
-| 7 | Finish | Oil/shellac finish and bore oil | 1 | Dewaxed shellac outside; bore oil compatible with chosen wood | finish schedule in assembly-manual.md | buy | 30 | assembly-manual.md | Avoid thick finish buildup inside tone holes or under pads. |
+| 1 | Body | Turned chalumeau body blanks | 4 | Cherry or hard maple for first pass; ipe/cocobolo/boxwood for keeper builds | see ../packet/family-spec.csv blank_length_in and turning_blank_in | make | 80 | ../drawings/chalumeau-family-sheet.svg | Use lower-cost domestic hardwood for bore and keywork tests before dense/oily woods. |
+| 2 | Bore | Long drill and reamer set | 1 | Aircraft-length brad point/twist drills plus adjustable/shell reamers | 0.500, 0.625, 0.750, 0.875 in bore targets | buy | 120 | ../cnc/cnc-lathe-plan.md | Exact tooling depends on whether bores are drilled solid or routed as split blanks. |
+| 3 | Mouthpiece | Single-reed mouthpieces | 4 | Purchased clarinet/sax mouthpiece adapted by size, or shop-made Delrin mouthpiece | socket IDs in ../packet/family-spec.csv; reed table in ../packet/design.md | buy first, make later | 160 | ../packet/drawing-brief.md | Use bought mouthpieces/reeds to isolate body acoustics before making reeds. |
+| 4 | Tone holes | Raised tone-hole collars or drilled holes | 36 | Integral turned collars for visual style; chamfered holes for first prototype | see ../data/tone-hole-schedule.csv | make | 20 | ../drawings/chalumeau-soprano-c4-dimensioned.svg | Collars are visual and ergonomic; pitch comes from hole center, diameter, and chimney. |
+| 5 | Keywork | Two-key chalumeau lever set | 4 | 0.040-0.062 in brass/nickel silver sheet, 1/16 in pivot rod, phosphor bronze spring | K01 and K02 per variant; see ../hardware/keywork-parts.csv | make | 60 | ../drawings/keywork-lever-detail.svg | The first soprano can be built keyless, then retrofitted with keys. |
+| 6 | Pads | Leather/cork/felt pad stack | 12 | Clarinet-style skin pads or cork backed with thin leather | pad OD = tone hole OD + 0.080 to 0.125 in | buy or make | 35 | ../hardware/lever-fabrication-guide.md | Use leak light or suction test before tuning. |
+| 7 | Finish | Oil/shellac finish and bore oil | 1 | Dewaxed shellac outside; bore oil compatible with chosen wood | finish schedule in ../packet/assembly-manual.md | buy | 30 | ../packet/assembly-manual.md | Avoid thick finish buildup inside tone holes or under pads. |
 
 <div class="page-break"></div>
 
-## sourcing.csv
+## ../packet/sourcing.csv
 
 Supplier/search tracker with specs, price/date fields, lead time, substitutes, and risks.
 
 | component | required_spec | search_terms | supplier_candidates | date_checked | unit_price | lead_time | substitute_rule | risk_notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Domestic hardwood prototype blanks | Straight-grain cherry, hard maple, or walnut; 1.5-2.25 in square; length per family-spec.csv | turning blank cherry hard maple 2x2x18 2x2x30 | local hardwood dealer, Bell Forest, Cook Woods, Woodcraft | not live-checked | research before purchase | research before purchase | Any stable fine-grained hardwood is acceptable for first acoustic prototypes. | Soft woods dent around tone holes and key posts; use for process tests only. |
+| Domestic hardwood prototype blanks | Straight-grain cherry, hard maple, or walnut; 1.5-2.25 in square; length per ../packet/family-spec.csv | turning blank cherry hard maple 2x2x18 2x2x30 | local hardwood dealer, Bell Forest, Cook Woods, Woodcraft | not live-checked | research before purchase | research before purchase | Any stable fine-grained hardwood is acceptable for first acoustic prototypes. | Soft woods dent around tone holes and key posts; use for process tests only. |
 | Dense keeper-build blanks | Ipe, cocobolo, boxwood, rosewood, grenadilla substitute; dry and crack-free | ipe turning blank cocobolo clarinet blank boxwood woodwind blank | Gilmer Wood, Cook Woods, Bell Forest, specialty woodwind blank suppliers | not live-checked | research before purchase | research before purchase | Delrin/acetal is acceptable for dimensional-stability testing. | Allergenic/oily woods need dust control, wiping before glue, and finish tests. |
 | Single reeds and mouthpieces | Soprano/alto use clarinet-like reeds; tenor/bass may use sax/low clarinet reeds or custom mouthpiece | clarinet mouthpiece blank baroque clarinet reed tenor chalumeau mouthpiece | woodwind suppliers, early-music makers, 3D print/Delrin shop-made option | not live-checked | research before purchase | research before purchase | Use commercial reed first to decouple reed-making from bore tuning. | Reed strength and mouthpiece volume can shift pitch and response significantly. |
 | Brass/nickel-silver key stock | 0.040-0.062 in sheet, 1/16 in rod, 0-80 or M1.6 screws, post stock | nickel silver sheet woodwind key rod phosphor bronze spring wire | McMaster-Carr, K&S metals, MusicMedic, instrument repair suppliers | not live-checked | research before purchase | research before purchase | Brass is easier to prototype; nickel silver wears better and solders cleanly. | Tiny screws strip easily; buy extras and make drill guides. |
@@ -189,7 +189,7 @@ Supplier/search tracker with specs, price/date fields, lead time, substitutes, a
 
 <div class="page-break"></div>
 
-## cut-list.csv
+## ../packet/cut-list.csv
 
 Rough/final stock sizes, material, grain/orientation, operations, yield, and offcuts.
 
@@ -206,7 +206,7 @@ Rough/final stock sizes, material, grain/orientation, operations, yield, and off
 
 <div class="page-break"></div>
 
-## drawing-brief.md
+## ../packet/drawing-brief.md
 
 Manufacturing drawing and technical product sketch brief.
 
@@ -231,18 +231,18 @@ Source workbook/CAD/catalog ID: CLM-001 / SolidWorks design table
 
 | Feature | Dimension source | Tolerance |
 | --- | --- | --- |
-| Bore ID | `family-spec.csv` | +/- 0.003 in after ream/lap |
-| Body length | `family-spec.csv` | leave trim allowance; final by tuning |
-| Hole X from bell | `data/tone-hole-schedule.csv` | +/- 0.020 in first prototype |
-| Hole diameter | `data/tone-hole-schedule.csv` | start undersize; final by tuning |
-| Pad seat flatness | `hardware/keywork-parts.csv` | no visible leak |
+| Bore ID | `../packet/family-spec.csv` | +/- 0.003 in after ream/lap |
+| Body length | `../packet/family-spec.csv` | leave trim allowance; final by tuning |
+| Hole X from bell | `../data/tone-hole-schedule.csv` | +/- 0.020 in first prototype |
+| Hole diameter | `../data/tone-hole-schedule.csv` | start undersize; final by tuning |
+| Pad seat flatness | `../hardware/keywork-parts.csv` | no visible leak |
 | Pivot alignment | keywork drawing | lever moves freely without side shake |
 
 ## Drawing Outputs In This Packet
 
-- `drawings/chalumeau-family-sheet.svg`
-- `drawings/chalumeau-soprano-c4-dimensioned.svg`
-- `drawings/keywork-lever-detail.svg`
+- `../drawings/chalumeau-family-sheet.svg`
+- `../drawings/chalumeau-soprano-c4-dimensioned.svg`
+- `../drawings/keywork-lever-detail.svg`
 
 ## Notes For SolidWorks
 
@@ -251,7 +251,7 @@ manually in separate sketches unless the dimension names match the CSV.
 
 <div class="page-break"></div>
 
-## assembly-manual.md
+## ../packet/assembly-manual.md
 
 Shop-facing sequence, tools, fixtures, safety, tuning, finishing, and maintenance notes.
 
@@ -265,11 +265,11 @@ bore, reed, and seven front holes speak reliably.
 ## Phase 0 - Design Freeze
 
 1. Pick the exact reed and mouthpiece.
-2. Print `data/tone-hole-schedule.csv` and mark which holes will be
+2. Print `../data/tone-hole-schedule.csv` and mark which holes will be
    drilled in the first pass.
 3. Decide whether the prototype uses raised collars or plain chamfered
    holes. Plain holes tune faster; collars match the inspiration photo.
-4. Confirm the blank dimensions from `cut-list.csv`.
+4. Confirm the blank dimensions from `../packet/cut-list.csv`.
 
 ## Phase 1 - Body Blank And Bore
 
@@ -285,11 +285,11 @@ bore, reed, and seven front holes speak reliably.
 1. Assemble reed, mouthpiece, and body with all holes undrilled.
 2. Measure the all-closed pitch.
 3. Trim the bell/foot in small steps only after the reed is stable.
-4. Record every trim amount in `validation.csv`.
+4. Record every trim amount in `../packet/validation.csv`.
 
 ## Phase 3 - Tone Holes
 
-1. Lay out hole centers from `data/tone-hole-schedule.csv`, measuring
+1. Lay out hole centers from `../data/tone-hole-schedule.csv`, measuring
    from `DATUM_BELL_FACE`.
 2. Center punch lightly. A wandering bit will change tuning.
 3. Drill each hole 15-25 percent undersize.
@@ -300,7 +300,7 @@ bore, reed, and seven front holes speak reliably.
 ## Phase 4 - Optional K01/K02 Keywork
 
 1. Drill keyed tone holes undersize.
-2. Fabricate levers using `hardware/lever-fabrication-guide.md`.
+2. Fabricate levers using `../hardware/lever-fabrication-guide.md`.
 3. Install posts and pivot rods.
 4. Seat pads and leak-test before tuning.
 5. Tune keyed notes after the pad seal is stable.
@@ -322,7 +322,7 @@ bore, reed, and seven front holes speak reliably.
 
 <div class="page-break"></div>
 
-## validation.csv
+## ../packet/validation.csv
 
 Target/measured values, tolerance, environment, result, and tuning/build action log.
 
@@ -330,13 +330,13 @@ Target/measured values, tolerance, environment, result, and tuning/build action 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | VAL-001 | all | A4 reference | 440.00 Hz |  | tuner reads 440 within calibration | record temp F, humidity percent |  | Calibrate tuner/mic before instrument data. |
 | VAL-010 | Soprano C | all holes closed | C4, 261.63 Hz |  | +/- 15 cents before final tuning; +/- 8 cents after | 68-72 F preferred |  | Trim bell end shorter to sharpen; add temporary tape/extension if sharp. |
-| VAL-020 | all | tone-hole sweep | each row in data/tone-hole-schedule.csv |  | +/- 12 cents after tuning | same reed, same mouthpiece, same blowing pressure |  | Open hole diameter to sharpen; use wax/tape collar to flatten during tests. |
+| VAL-020 | all | tone-hole sweep | each row in ../data/tone-hole-schedule.csv |  | +/- 12 cents after tuning | same reed, same mouthpiece, same blowing pressure |  | Open hole diameter to sharpen; use wax/tape collar to flatten during tests. |
 | VAL-030 | keyed builds | pad leak test | no visible leak under leak light; suction holds 10 s |  | zero audible hiss at normal blowing pressure | before final tone-hole tuning |  | Reseat pad, regulate cork, or lap tone-hole rim. |
 | VAL-040 | experimental register key | overblown twelfth check | note + 19 semitones if vent is clarinet-like |  | document response only; not a first-build pass/fail | same reed and embouchure as low-register test |  | Move/resize vent only after the core chalumeau speaks well. |
 
 <div class="page-break"></div>
 
-## supplier-rfq.md
+## ../packet/supplier-rfq.md
 
 Supplier email/request-for-quote starter.
 
@@ -356,7 +356,7 @@ substitutes.
 - Keeper species: ipe, boxwood, cocobolo, rosewood, or grenadilla
   substitute.
 - Sizes range from about 1.25 x 1.25 x 15 in to 2.25 x 2.25 x 41 in.
-  Exact dimensions are in `cut-list.csv`.
+  Exact dimensions are in `../packet/cut-list.csv`.
 
 ## Keywork Materials
 
@@ -376,7 +376,7 @@ Thank you.
 
 <div class="page-break"></div>
 
-## visual-bom-brief.md
+## ../packet/visual-bom-brief.md
 
 Art direction for an image-forward visual BOM.
 
@@ -391,11 +391,11 @@ photos of the prototypes.
 
 ## Real Images Available
 
-- `images/chalumeau1.jpg`: full instrument inspiration, attributed to
+- `../../assets/images/chalumeau1.jpg`: full instrument inspiration, attributed to
   Petr Skalicky / Dudy.eu, `https://www.dudy.eu/chalumeau.php`.
-- `images/chalumeau5.jpg`: close-up of raised collars and wood finish,
+- `../../assets/images/chalumeau5.jpg`: close-up of raised collars and wood finish,
   attributed to Petr Skalicky / Dudy.eu, `https://www.dudy.eu/chalumeau.php`.
-- `images/7173-372-1_1920x1080.avif`: additional inspiration image,
+- `../../assets/images/7173-372-1_1920x1080.avif`: additional inspiration image,
   not universally supported by all renderers.
 
 ## Part Rows To Show
@@ -419,7 +419,7 @@ not from pixels in the visual BOM.
 
 <div class="page-break"></div>
 
-## wolfram-starter.wl
+## ../packet/wolfram-starter.wl
 
 Wolfram starter for physics, optimization, visualization, and validation.
 
@@ -501,7 +501,7 @@ Project artifact.
 > keyless folk-pipe simplicity first, optional handmade two-key metalwork
 > second, and a documented path toward clarinet-style register experiments.
 
-![Inspiration chalumeau with turned wood body, raised tone-hole collars, black mouthpiece, and flared bell](images/chalumeau1.jpg)
+![Inspiration chalumeau with turned wood body, raised tone-hole collars, black mouthpiece, and flared bell](../../assets/images/chalumeau1.jpg)
 *Photo/reference instrument by Petr Skalicky / Dudy.eu, from
 [dudy.eu/chalumeau.php](https://www.dudy.eu/chalumeau.php). Used here
 as an attributed design reference, not as Tony's own build photo.*
@@ -526,7 +526,7 @@ positions, and optional levers are driven from formulas rather than
 hidden one-off dimensions.
 
 The packet starts from attributed Dudy.eu chalumeau reference photos in
-`images/`, Tony's `Musical Instruments.xlsx` workbook, and especially
+`../../assets/images/`, Tony's `Musical Instruments.xlsx` workbook, and especially
 the reed/bore lessons in the `Great Highland Bagpipe` sheet. The
 acoustic model is not copied from Native American style flute K2
 corrections. A chalumeau is a cylindrical, single-reed, effectively
@@ -561,20 +561,20 @@ trills, low extensions, and better intonation.
 
 - `chalumeau-family-design-table.xlsx`: Excel design workbook with blue
   inputs and formulas.
-- `family-spec.csv`: one row per family member.
-- `data/tone-hole-schedule.csv`: calculated tone-hole and keyed-hole
+- `../packet/family-spec.csv`: one row per family member.
+- `../data/tone-hole-schedule.csv`: calculated tone-hole and keyed-hole
   positions.
-- `design.md`: governing model, assumptions, keywork strategy, and risk
+- `../packet/design.md`: governing model, assumptions, keywork strategy, and risk
   register.
-- `hardware/lever-fabrication-guide.md`: how to make the metal levers,
+- `../hardware/lever-fabrication-guide.md`: how to make the metal levers,
   pads, pivots, and springs yourself.
-- `cad/solidworks-design-table.csv`: SolidWorks configuration table.
-- `cad/solidworks-global-variables.md`: variable naming conventions and
+- `../cad/solidworks-design-table.csv`: SolidWorks configuration table.
+- `../cad/solidworks-global-variables.md`: variable naming conventions and
   equation pattern.
-- `drawings/`: SVG drawing sheets for the family, soprano C, and keywork.
-- `assembly-manual.md`, `bom.csv`, `sourcing.csv`, `cut-list.csv`,
-  `validation.csv`, `supplier-rfq.md`: shop-facing build packet files.
-- `wolfram-starter.wl`: Wolfram starter for acoustic sweeps and tuning
+- `../drawings/`: SVG drawing sheets for the family, soprano C, and keywork.
+- `../packet/assembly-manual.md`, `../packet/bom.csv`, `../packet/sourcing.csv`, `../packet/cut-list.csv`,
+  `../packet/validation.csv`, `../packet/supplier-rfq.md`: shop-facing build packet files.
+- `../packet/wolfram-starter.wl`: Wolfram starter for acoustic sweeps and tuning
   validation.
 - `capstone-deck.pptx` and `print-packet.pdf`: presentation and printable
   versions of the packet.
@@ -593,14 +593,14 @@ trills, low extensions, and better intonation.
 
 ## License
 
-Released under [CC-BY 4.0](LICENSE) for original written/design content
+Released under [CC-BY 4.0](../../LICENSE) for original written/design content
 in this repository. The Dudy.eu reference photos are attributed source
 images, not Tony-owned build photos; replace them with shop photos as
 prototypes are built.
 
 <div class="page-break"></div>
 
-## SKILLS.md
+## ../../docs/SKILLS.md
 
 Project artifact.
 
@@ -630,7 +630,7 @@ first-pass model blindly.
 
 <div class="page-break"></div>
 
-## family-spec.csv
+## ../packet/family-spec.csv
 
 Project artifact.
 
@@ -643,7 +643,7 @@ Project artifact.
 
 <div class="page-break"></div>
 
-## image-attributions.md
+## ../../docs/image-attributions.md
 
 Project artifact.
 
@@ -651,8 +651,8 @@ Project artifact.
 
 ## Dudy.eu Chalumeau Reference Photos
 
-- `images/chalumeau1.jpg`
-- `images/chalumeau5.jpg`
+- `../../assets/images/chalumeau1.jpg`
+- `../../assets/images/chalumeau5.jpg`
 
 Attribution: Petr Skalicky / Dudy.eu, chalumeau reference page:
 https://www.dudy.eu/chalumeau.php
@@ -663,7 +663,7 @@ own build photos.
 
 ## Additional Local Inspiration Image
 
-- `images/7173-372-1_1920x1080.avif`
+- `../../assets/images/7173-372-1_1920x1080.avif`
 
 Attribution/source: TBD. Keep as local inspiration only until provenance is
 confirmed or replace with shop-generated imagery.

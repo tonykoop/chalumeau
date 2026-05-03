@@ -21,16 +21,16 @@ Source workbook/CAD/catalog ID: CLM-001 / SolidWorks design table
 | --- | --- | --- |
 | Bore ID | `family-spec.csv` | +/- 0.003 in after ream/lap |
 | Body length | `family-spec.csv` | leave trim allowance; final by tuning |
-| Hole X from bell | `data/tone-hole-schedule.csv` | +/- 0.020 in first prototype |
-| Hole diameter | `data/tone-hole-schedule.csv` | start undersize; final by tuning |
-| Pad seat flatness | `hardware/keywork-parts.csv` | no visible leak |
+| Hole X from bell | `../data/tone-hole-schedule.csv` | +/- 0.020 in first prototype |
+| Hole diameter | `../data/tone-hole-schedule.csv` | start undersize; final by tuning |
+| Pad seat flatness | `../hardware/keywork-parts.csv` | no visible leak |
 | Pivot alignment | keywork drawing | lever moves freely without side shake |
 
 ## Drawing Outputs In This Packet
 
-- `drawings/chalumeau-family-sheet.svg`
-- `drawings/chalumeau-soprano-c4-dimensioned.svg`
-- `drawings/keywork-lever-detail.svg`
+- `../drawings/chalumeau-family-sheet.svg`
+- `../drawings/chalumeau-soprano-c4-dimensioned.svg`
+- `../drawings/keywork-lever-detail.svg`
 
 ## Notes For SolidWorks
 

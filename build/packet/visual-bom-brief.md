@@ -9,11 +9,11 @@ photos of the prototypes.
 
 ## Real Images Available
 
-- `images/chalumeau1.jpg`: full instrument inspiration, attributed to
+- `../../assets/images/chalumeau1.jpg`: full instrument inspiration, attributed to
   Petr Skalicky / Dudy.eu, `https://www.dudy.eu/chalumeau.php`.
-- `images/chalumeau5.jpg`: close-up of raised collars and wood finish,
+- `../../assets/images/chalumeau5.jpg`: close-up of raised collars and wood finish,
   attributed to Petr Skalicky / Dudy.eu, `https://www.dudy.eu/chalumeau.php`.
-- `images/7173-372-1_1920x1080.avif`: additional inspiration image,
+- `../../assets/images/7173-372-1_1920x1080.avif`: additional inspiration image,
   not universally supported by all renderers.
 
 ## Part Rows To Show

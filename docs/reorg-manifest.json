@@ -1,0 +1,168 @@
+{
+  "repo": "chalumeau",
+  "generated_at": "2026-05-03T13:59:41",
+  "template": "../instrument-maker/docs/instrument-repo-folder-template.md",
+  "policy": "Move-only reorganization; no source files intentionally deleted.",
+  "moved": [
+    {
+      "old": "SKILLS.md",
+      "new": "docs/SKILLS.md"
+    },
+    {
+      "old": "assembly-manual.md",
+      "new": "build/packet/assembly-manual.md"
+    },
+    {
+      "old": "bom.csv",
+      "new": "build/packet/bom.csv"
+    },
+    {
+      "old": "cad/chalumeau_family_master.scad",
+      "new": "build/cad/chalumeau_family_master.scad"
+    },
+    {
+      "old": "cad/solidworks-design-table.csv",
+      "new": "build/cad/solidworks-design-table.csv"
+    },
+    {
+      "old": "cad/solidworks-equations.txt",
+      "new": "build/cad/solidworks-equations.txt"
+    },
+    {
+      "old": "cad/solidworks-global-variables.md",
+      "new": "build/cad/solidworks-global-variables.md"
+    },
+    {
+      "old": "capstone-deck.md",
+      "new": "build/presentation/capstone-deck.md"
+    },
+    {
+      "old": "capstone-deck.pptx",
+      "new": "build/presentation/capstone-deck.pptx"
+    },
+    {
+      "old": "capstone-manifest.json",
+      "new": "build/presentation/capstone-manifest.json"
+    },
+    {
+      "old": "cnc/cnc-lathe-plan.md",
+      "new": "build/cnc/cnc-lathe-plan.md"
+    },
+    {
+      "old": "cut-list.csv",
+      "new": "build/packet/cut-list.csv"
+    },
+    {
+      "old": "data/generation-manifest.json",
+      "new": "build/data/generation-manifest.json"
+    },
+    {
+      "old": "data/prototype-measurement-template.csv",
+      "new": "build/data/prototype-measurement-template.csv"
+    },
+    {
+      "old": "data/tone-hole-schedule.csv",
+      "new": "build/data/tone-hole-schedule.csv"
+    },
+    {
+      "old": "data/workbook-inspection-summary.md",
+      "new": "build/data/workbook-inspection-summary.md"
+    },
+    {
+      "old": "design.md",
+      "new": "build/packet/design.md"
+    },
+    {
+      "old": "drawing-brief.md",
+      "new": "build/packet/drawing-brief.md"
+    },
+    {
+      "old": "drawings/chalumeau-family-sheet.svg",
+      "new": "build/drawings/chalumeau-family-sheet.svg"
+    },
+    {
+      "old": "drawings/chalumeau-soprano-c4-dimensioned.svg",
+      "new": "build/drawings/chalumeau-soprano-c4-dimensioned.svg"
+    },
+    {
+      "old": "drawings/keywork-lever-detail.svg",
+      "new": "build/drawings/keywork-lever-detail.svg"
+    },
+    {
+      "old": "family-spec.csv",
+      "new": "build/packet/family-spec.csv"
+    },
+    {
+      "old": "hardware/keywork-parts.csv",
+      "new": "build/hardware/keywork-parts.csv"
+    },
+    {
+      "old": "hardware/lever-fabrication-guide.md",
+      "new": "build/hardware/lever-fabrication-guide.md"
+    },
+    {
+      "old": "image-attributions.md",
+      "new": "docs/image-attributions.md"
+    },
+    {
+      "old": "images/7173-372-1_1920x1080.avif",
+      "new": "assets/images/7173-372-1_1920x1080.avif"
+    },
+    {
+      "old": "images/chalumeau1.jpg",
+      "new": "assets/images/chalumeau1.jpg"
+    },
+    {
+      "old": "images/chalumeau5.jpg",
+      "new": "assets/images/chalumeau5.jpg"
+    },
+    {
+      "old": "print-packet.html",
+      "new": "build/presentation/print-packet.html"
+    },
+    {
+      "old": "print-packet.md",
+      "new": "build/presentation/print-packet.md"
+    },
+    {
+      "old": "print-packet.pdf",
+      "new": "build/presentation/print-packet.pdf"
+    },
+    {
+      "old": "research/chalumeau-keywork-history.md",
+      "new": "docs/research/chalumeau-keywork-history.md"
+    },
+    {
+      "old": "sourcing.csv",
+      "new": "build/packet/sourcing.csv"
+    },
+    {
+      "old": "supplier-rfq.md",
+      "new": "build/packet/supplier-rfq.md"
+    },
+    {
+      "old": "validation.csv",
+      "new": "build/packet/validation.csv"
+    },
+    {
+      "old": "visual-bom-brief.md",
+      "new": "build/packet/visual-bom-brief.md"
+    },
+    {
+      "old": "wolfram-starter.wl",
+      "new": "build/packet/wolfram-starter.wl"
+    }
+  ],
+  "skipped": [
+    {
+      "old": "chalumeau-family-design-table.xlsx",
+      "new": "build/design-tables/chalumeau-family-design-table.xlsx",
+      "reason": "PermissionError: [Errno 13] Permission denied: '/mnt/c/Users/Tony/Documents/GitHub/chalumeau/chalumeau-family-design-table.xlsx' -> '/mnt/c/Users/Tony/Documents/GitHub/chalumeau/build/design-tables/chalumeau-family-design-table.xlsx'"
+    },
+    {
+      "old": "~$chalumeau-family-design-table.xlsx",
+      "new": "build/design-tables/~$chalumeau-family-design-table.xlsx",
+      "reason": "PermissionError: [Errno 13] Permission denied: '/mnt/c/Users/Tony/Documents/GitHub/chalumeau/~$chalumeau-family-design-table.xlsx' -> '/mnt/c/Users/Tony/Documents/GitHub/chalumeau/build/design-tables/~$chalumeau-family-design-table.xlsx'"
+    }
+  ]
+}

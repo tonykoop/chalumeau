@@ -14,10 +14,10 @@ mouthpiece, bore, and player pressure.
 ## Source Artifacts
 
 - Repo: `https://github.com/tonykoop/chalumeau`
-- Attributed inspiration/reference photos: `images/chalumeau1.jpg` and
-  `images/chalumeau5.jpg`, from Petr Skalicky / Dudy.eu:
+- Attributed inspiration/reference photos: `../../assets/images/chalumeau1.jpg` and
+  `../../assets/images/chalumeau5.jpg`, from Petr Skalicky / Dudy.eu:
   `https://www.dudy.eu/chalumeau.php`
-- Additional local inspiration image: `images/7173-372-1_1920x1080.avif`
+- Additional local inspiration image: `../../assets/images/7173-372-1_1920x1080.avif`
 - Workbook inspected: `C:/Users/Tony/Documents/Claude/Projects/Career/flutes-staging/Musical Instruments.xlsx`
 - Relevant workbook source sheet: `Great Highland Bagpipe`, especially the
   contrast between conical double-reed chanter rows and cylindrical
@@ -92,8 +92,8 @@ use stable hole IDs that match the CSV and drawings:
 - `CLM_K01_X_Bell_in`, `CLM_K01_Dia_in`
 - `CLM_Key_Pivot_Rod_Dia_in`, `CLM_Pad_Overhang_in`
 
-The SolidWorks design table is `cad/solidworks-design-table.csv`. The
-equation snippets are in `cad/solidworks-equations.txt`.
+The SolidWorks design table is `../cad/solidworks-design-table.csv`. The
+equation snippets are in `../cad/solidworks-equations.txt`.
 
 ## Assumptions And Risks
 
@@ -125,4 +125,4 @@ equation snippets are in `cad/solidworks-equations.txt`.
   image or plain chamfered holes for faster tuning.
 - Model `CLM-SOP-C4` in SolidWorks using the provided global variables.
 - After first measurements, add a `prototype_correction_pct` column to
-  `data/tone-hole-schedule.csv`.
+  `../data/tone-hole-schedule.csv`.

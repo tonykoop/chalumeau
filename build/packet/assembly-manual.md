@@ -8,7 +8,7 @@ bore, reed, and seven front holes speak reliably.
 ## Phase 0 - Design Freeze
 
 1. Pick the exact reed and mouthpiece.
-2. Print `data/tone-hole-schedule.csv` and mark which holes will be
+2. Print `../data/tone-hole-schedule.csv` and mark which holes will be
    drilled in the first pass.
 3. Decide whether the prototype uses raised collars or plain chamfered
    holes. Plain holes tune faster; collars match the inspiration photo.
@@ -32,7 +32,7 @@ bore, reed, and seven front holes speak reliably.
 
 ## Phase 3 - Tone Holes
 
-1. Lay out hole centers from `data/tone-hole-schedule.csv`, measuring
+1. Lay out hole centers from `../data/tone-hole-schedule.csv`, measuring
    from `DATUM_BELL_FACE`.
 2. Center punch lightly. A wandering bit will change tuning.
 3. Drill each hole 15-25 percent undersize.
@@ -43,7 +43,7 @@ bore, reed, and seven front holes speak reliably.
 ## Phase 4 - Optional K01/K02 Keywork
 
 1. Drill keyed tone holes undersize.
-2. Fabricate levers using `hardware/lever-fabrication-guide.md`.
+2. Fabricate levers using `../hardware/lever-fabrication-guide.md`.
 3. Install posts and pivot rods.
 4. Seat pads and leak-test before tuning.
 5. Tune keyed notes after the pad seal is stable.

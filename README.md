@@ -4,7 +4,7 @@
 > keyless folk-pipe simplicity first, optional handmade two-key metalwork
 > second, and a documented path toward clarinet-style register experiments.
 
-![Inspiration chalumeau with turned wood body, raised tone-hole collars, black mouthpiece, and flared bell](images/chalumeau1.jpg)
+![Inspiration chalumeau with turned wood body, raised tone-hole collars, black mouthpiece, and flared bell](assets/images/chalumeau1.jpg)
 *Photo/reference instrument by Petr Skalicky / Dudy.eu, from
 [dudy.eu/chalumeau.php](https://www.dudy.eu/chalumeau.php). Used here
 as an attributed design reference, not as Tony's own build photo.*
@@ -29,7 +29,7 @@ positions, and optional levers are driven from formulas rather than
 hidden one-off dimensions.
 
 The packet starts from attributed Dudy.eu chalumeau reference photos in
-`images/`, Tony's `Musical Instruments.xlsx` workbook, and especially
+`assets/images/`, Tony's `Musical Instruments.xlsx` workbook, and especially
 the reed/bore lessons in the `Great Highland Bagpipe` sheet. The
 acoustic model is not copied from Native American style flute K2
 corrections. A chalumeau is a cylindrical, single-reed, effectively
@@ -62,25 +62,15 @@ trills, low extensions, and better intonation.
 
 ## Packet map
 
-- `chalumeau-family-design-table.xlsx`: Excel design workbook with blue
-  inputs and formulas.
-- `family-spec.csv`: one row per family member.
-- `data/tone-hole-schedule.csv`: calculated tone-hole and keyed-hole
-  positions.
-- `design.md`: governing model, assumptions, keywork strategy, and risk
-  register.
-- `hardware/lever-fabrication-guide.md`: how to make the metal levers,
-  pads, pivots, and springs yourself.
-- `cad/solidworks-design-table.csv`: SolidWorks configuration table.
-- `cad/solidworks-global-variables.md`: variable naming conventions and
-  equation pattern.
-- `drawings/`: SVG drawing sheets for the family, soprano C, and keywork.
-- `assembly-manual.md`, `bom.csv`, `sourcing.csv`, `cut-list.csv`,
-  `validation.csv`, `supplier-rfq.md`: shop-facing build packet files.
-- `wolfram-starter.wl`: Wolfram starter for acoustic sweeps and tuning
-  validation.
-- `capstone-deck.pptx` and `print-packet.pdf`: presentation and printable
-  versions of the packet.
+- [`build/packet/`](build/packet/) - design narrative, BOM, sourcing, cut list, validation, assembly, RFQ, drawing/visual briefs, and Wolfram starter.
+- [`build/presentation/`](build/presentation/) - capstone deck, printable packet, HTML/PDF exports, and manifest.
+- [`build/design-tables/`](build/design-tables/) - Excel and SolidWorks-ready design tables.
+- [`build/drawings/`](build/drawings/) - dimensioned drawing sheets and drawing exports.
+- [`build/cad/`](build/cad/) - CAD/OpenSCAD/SolidWorks source and exports.
+- [`build/cnc/`](build/cnc/) - CNC/CAM plans, setup sheets, fixtures, and toolpaths.
+- [`build/hardware/`](build/hardware/) - handmade lever/keywork parts, guides, and hardware tables.
+- [`assets/images/`](assets/images/) - photos, attributed references, concept art, and generated visuals.
+- [`docs/`](docs/) - attribution, provenance, research, handoff notes, and reorganization manifest.
 
 ## Status
 
