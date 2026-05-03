@@ -1,0 +1,11 @@
+build_id,date,variant,reed,mouthpiece,temperature_f,humidity_pct,hole_state,target_note,target_hz,measured_hz,cents_error,action_taken,notes
+CLM-SOP-C4-P1,,Soprano C,,,,,all closed,C4,261.63,,,,
+CLM-SOP-C4-P1,,Soprano C,,,,,K01,C#4,277.18,,,,
+CLM-SOP-C4-P1,,Soprano C,,,,,H01,D4,293.66,,,,
+CLM-SOP-C4-P1,,Soprano C,,,,,H02,E4,329.63,,,,
+CLM-SOP-C4-P1,,Soprano C,,,,,H03,F4,349.23,,,,
+CLM-SOP-C4-P1,,Soprano C,,,,,H04,G4,392.0,,,,
+CLM-SOP-C4-P1,,Soprano C,,,,,H05,A4,440.0,,,,
+CLM-SOP-C4-P1,,Soprano C,,,,,K02,Bb4,466.16,,,,
+CLM-SOP-C4-P1,,Soprano C,,,,,H06,B4,493.88,,,,
+CLM-SOP-C4-P1,,Soprano C,,,,,H07,C5,523.25,,,,

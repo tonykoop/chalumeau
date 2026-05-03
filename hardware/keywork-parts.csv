@@ -1,0 +1,9 @@
+part_id,variant,key_function,tone_hole_note,tone_hole_dia_in,pad_od_in,lever_length_in,pivot_rod_in,sheet_thickness_in,spring,default_state,drawing_ref
+CLM-SOP-C4-K01,Soprano C,root sharp semitone,C#4,0.16,0.27,1.75,0.0625,0.050,0.012-0.018 in phosphor bronze needle or flat spring,closed pad; press lever to open,drawings/keywork-lever-detail.svg
+CLM-SOP-C4-K02,Soprano C,upper chromatic,Bb4,0.15,0.26,4.5,0.0625,0.050,0.012-0.018 in phosphor bronze needle or flat spring,closed pad; press lever to open,drawings/keywork-lever-detail.svg
+CLM-ALT-G3-K01,Alto G,root sharp semitone,Ab3,0.2,0.31,1.75,0.0625,0.050,0.012-0.018 in phosphor bronze needle or flat spring,closed pad; press lever to open,drawings/keywork-lever-detail.svg
+CLM-ALT-G3-K02,Alto G,upper chromatic,F4,0.188,0.298,4.5,0.0625,0.050,0.012-0.018 in phosphor bronze needle or flat spring,closed pad; press lever to open,drawings/keywork-lever-detail.svg
+CLM-TEN-C3-K01,Tenor C,root sharp semitone,C#3,0.24,0.35,2.047,0.0625,0.050,0.012-0.018 in phosphor bronze needle or flat spring,closed pad; press lever to open,drawings/keywork-lever-detail.svg
+CLM-TEN-C3-K02,Tenor C,upper chromatic,Bb3,0.225,0.335,4.5,0.0625,0.050,0.012-0.018 in phosphor bronze needle or flat spring,closed pad; press lever to open,drawings/keywork-lever-detail.svg
+CLM-BAS-F2-K01,Bass F,root sharp semitone,F#2,0.28,0.39,2.745,0.0625,0.050,0.012-0.018 in phosphor bronze needle or flat spring,closed pad; press lever to open,drawings/keywork-lever-detail.svg
+CLM-BAS-F2-K02,Bass F,upper chromatic,Eb3,0.263,0.373,4.5,0.0625,0.050,0.012-0.018 in phosphor bronze needle or flat spring,closed pad; press lever to open,drawings/keywork-lever-detail.svg

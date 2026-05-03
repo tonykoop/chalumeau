@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+<rect width="1600" height="1000" fill="#f8fafc"/>
+<text x="60" y="70" font-family="Arial" font-size="34" font-weight="700">Chalumeau Family - First-Pass Stopped-Reed Design</text>
+<text x="60" y="105" font-family="Arial" font-size="16">Units: inches. Hole centers measured from bell datum. Validate by prototype tuning before final machining.</text>
+<text x="60" y="188" font-family="Arial" font-size="20" font-weight="700">CLM-SOP-C4</text>
+<text x="60" y="214" font-family="Arial" font-size="14">Soprano C, root C4, bore 0.5 in</text>
+<line x1="220" y1="180" x2="616.8267223382046" y2="180" stroke="#334155" stroke-width="31.0" stroke-linecap="round"/>
+<line x1="220" y1="180" x2="616.8267223382046" y2="180" stroke="#0f172a" stroke-width="2" stroke-dasharray="8 6"/>
+<circle cx="184" cy="180" r="9.30062630480167" fill="none" stroke="#92400e" stroke-width="6"/>
+<text x="636.8267223382046" y="186" font-family="Arial" font-size="14">L=12.672 in</text>
+<circle cx="239.47807933194156" cy="180" r="4" fill="#dc2626" stroke="white" stroke-width="2"/>
+<circle cx="261.1482254697286" cy="180" r="4" fill="#111827" stroke="white" stroke-width="2"/>
+<circle cx="300.6680584551148" cy="180" r="4" fill="#111827" stroke="white" stroke-width="2"/>
+<circle cx="318.54906054279746" cy="180" r="4" fill="#111827" stroke="white" stroke-width="2"/>
+<circle cx="351.86847599164923" cy="180" r="4" fill="#111827" stroke="white" stroke-width="2"/>
+<circle cx="381.49269311064717" cy="180" r="4" fill="#111827" stroke="white" stroke-width="2"/>
+<circle cx="394.5511482254697" cy="180" r="4" fill="#dc2626" stroke="white" stroke-width="2"/>
+<circle cx="407.5156576200418" cy="180" r="4" fill="#111827" stroke="white" stroke-width="2"/>
+<circle cx="419.47807933194156" cy="180" r="4" fill="#111827" stroke="white" stroke-width="2"/>
+<text x="60" y="358" font-family="Arial" font-size="20" font-weight="700">CLM-ALT-G3</text>
+<text x="60" y="384" font-family="Arial" font-size="14">Alto G, root G3, bore 0.625 in</text>
+<line x1="220" y1="350" x2="750.4488517745302" y2="350" stroke="#334155" stroke-width="33.25" stroke-linecap="round"/>
+<line x1="220" y1="350" x2="750.4488517745302" y2="350" stroke="#0f172a" stroke-width="2" stroke-dasharray="8 6"/>
+<circle cx="184" cy="350" r="10.991649269311063" fill="none" stroke="#92400e" stroke-width="6"/>
+<text x="770.4488517745302" y="356" font-family="Arial" font-size="14">L=16.939 in</text>
+<circle cx="246.30480167014613" cy="350" r="4" fill="#dc2626" stroke="white" stroke-width="2"/>
+<circle cx="275.2087682672234" cy="350" r="4" fill="#111827" stroke="white" stroke-width="2"/>
+<circle cx="327.9436325678497" cy="350" r="4" fill="#111827" stroke="white" stroke-width="2"/>
+<circle cx="351.80584551148223" cy="350" r="4" fill="#111827" stroke="white" stroke-width="2"/>
+<circle cx="396.30480167014616" cy="350" r="4" fill="#111827" stroke="white" stroke-width="2"/>
+<circle cx="435.82463465553235" cy="350" r="4" fill="#111827" stroke="white" stroke-width="2"/>
+<circle cx="453.2985386221294" cy="350" r="4" fill="#dc2626" stroke="white" stroke-width="2"/>
+<circle cx="470.5845511482255" cy="350" r="4" fill="#111827" stroke="white" stroke-width="2"/>
+<circle cx="486.55532359081417" cy="350" r="4" fill="#111827" stroke="white" stroke-width="2"/>
+<text x="60" y="528" font-family="Arial" font-size="20" font-weight="700">CLM-TEN-C3</text>
+<text x="60" y="554" font-family="Arial" font-size="14">Tenor C, root C3, bore 0.75 in</text>
+<line x1="220" y1="520" x2="1018.0062630480166" y2="520" stroke="#334155" stroke-width="35.5" stroke-linecap="round"/>
+<line x1="220" y1="520" x2="1018.0062630480166" y2="520" stroke="#0f172a" stroke-width="2" stroke-dasharray="8 6"/>
+<circle cx="184" cy="520" r="13.246346555323589" fill="none" stroke="#92400e" stroke-width="6"/>
+<text x="1038.0062630480165" y="526" font-family="Arial" font-size="14">L=25.483 in</text>
+<circle cx="260.615866388309" cy="520" r="4" fill="#dc2626" stroke="white" stroke-width="2"/>
+<circle cx="303.8622129436326" cy="520" r="4" fill="#111827" stroke="white" stroke-width="2"/>
+<circle cx="382.839248434238" cy="520" r="4" fill="#111827" stroke="white" stroke-width="2"/>
+<circle cx="418.69519832985384" cy="520" r="4" fill="#111827" stroke="white" stroke-width="2"/>
+<circle cx="485.2400835073069" cy="520" r="4" fill="#111827" stroke="white" stroke-width="2"/>
+<circle cx="544.4572025052191" cy="520" r="4" fill="#111827" stroke="white" stroke-width="2"/>
+<circle cx="570.8246346555323" cy="520" r="4" fill="#dc2626" stroke="white" stroke-width="2"/>
+<circle cx="596.6597077244259" cy="520" r="4" fill="#111827" stroke="white" stroke-width="2"/>
+<circle cx="620.6158663883089" cy="520" r="4" fill="#111827" stroke="white" stroke-width="2"/>
+<text x="60" y="698" font-family="Arial" font-size="20" font-weight="700">CLM-BAS-F2</text>
+<text x="60" y="724" font-family="Arial" font-size="14">Bass F, root F2, bore 0.875 in</text>
+<line x1="220" y1="690" x2="1420.0" y2="690" stroke="#334155" stroke-width="37.75" stroke-linecap="round"/>
+<line x1="220" y1="690" x2="1420.0" y2="690" stroke="#0f172a" stroke-width="2" stroke-dasharray="8 6"/>
+<circle cx="184" cy="690" r="16.346555323590813" fill="none" stroke="#92400e" stroke-width="6"/>
+<text x="1440.0" y="696" font-family="Arial" font-size="14">L=38.32 in</text>
+<circle cx="282.47390396659705" cy="690" r="4" fill="#dc2626" stroke="white" stroke-width="2"/>
+<circle cx="347.17118997912314" cy="690" r="4" fill="#111827" stroke="white" stroke-width="2"/>
+<circle cx="465.4488517745302" cy="690" r="4" fill="#111827" stroke="white" stroke-width="2"/>
+<circle cx="519.2797494780793" cy="690" r="4" fill="#111827" stroke="white" stroke-width="2"/>
+<circle cx="618.9248434237995" cy="690" r="4" fill="#111827" stroke="white" stroke-width="2"/>
+<circle cx="707.5782881002087" cy="690" r="4" fill="#111827" stroke="white" stroke-width="2"/>
+<circle cx="747.3173277661795" cy="690" r="4" fill="#dc2626" stroke="white" stroke-width="2"/>
+<circle cx="785.8977035490606" cy="690" r="4" fill="#111827" stroke="white" stroke-width="2"/>
+<circle cx="821.8789144050104" cy="690" r="4" fill="#111827" stroke="white" stroke-width="2"/>
+<rect x="60" y="870" width="1480" height="70" fill="none" stroke="#334155" stroke-width="2"/>
+<text x="80" y="902" font-family="Arial" font-size="16">REV-A. Generated from family-spec.csv and data/tone-hole-schedule.csv. Red holes are optional keyed K01/K02.</text>
+<text x="80" y="928" font-family="Arial" font-size="16">Primary datums: DATUM_BELL_FACE, DATUM_REED_SEAT, DATUM_BORE_AXIS.</text>
+</svg>

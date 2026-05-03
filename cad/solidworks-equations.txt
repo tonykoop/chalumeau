@@ -1,0 +1,15 @@
+"CLM_SOS_in_per_s" = 13552.0
+"CLM_Root_Hz" = 440 * 2 ^ (("CLM_Root_MIDI" - 69) / 12)
+"CLM_Bell_End_Corr_in" = 0.61 * ("CLM_Bore_ID_in" / 2)
+"CLM_Reed_Corr_in" = 0.25 * "CLM_Bore_ID_in"
+"CLM_Acoustic_L_in" = "CLM_SOS_in_per_s" / (4 * "CLM_Root_Hz")
+"CLM_Body_L_Final_in" = "CLM_Acoustic_L_in" - "CLM_Bell_End_Corr_in" - "CLM_Reed_Corr_in"
+"CLM_Blank_L_in" = "CLM_Body_L_Final_in" + 1.5
+"CLM_Body_OD_in" = "CLM_Bore_ID_in" + 2 * "CLM_Wall_T_in"
+"CLM_Pad_Overhang_in" = 0.055
+"CLM_Key_Pivot_Rod_Dia_in" = 0.0625
+
+# Pattern for each hole H01-H07/K01-K02:
+# "CLM_H01_Hz" = 440 * 2 ^ (("CLM_Root_MIDI" + 2 - 69) / 12)
+# "CLM_H01_Eff_L_in" = "CLM_SOS_in_per_s" / (4 * "CLM_H01_Hz")
+# "CLM_H01_X_Bell_in" = "CLM_Body_L_Final_in" - ("CLM_H01_Eff_L_in" - "CLM_Reed_Corr_in" - 0.30 * "CLM_H01_Dia_in")

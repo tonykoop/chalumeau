@@ -1,0 +1,14 @@
+{
+  "generated": "2026-05-03",
+  "root": "/mnt/c/Users/Tony/Documents/GitHub/chalumeau",
+  "primary_outputs": [
+    "README.md",
+    "design.md",
+    "chalumeau-family-design-table.xlsx",
+    "family-spec.csv",
+    "data/tone-hole-schedule.csv",
+    "hardware/lever-fabrication-guide.md",
+    "cad/solidworks-design-table.csv",
+    "drawings/chalumeau-family-sheet.svg"
+  ]
+}
