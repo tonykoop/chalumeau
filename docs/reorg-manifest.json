@@ -45,6 +45,10 @@
       "new": "build/presentation/capstone-manifest.json"
     },
     {
+      "old": "chalumeau-family-design-table.xlsx",
+      "new": "build/design-tables/chalumeau-family-design-table.xlsx"
+    },
+    {
       "old": "cnc/cnc-lathe-plan.md",
       "new": "build/cnc/cnc-lathe-plan.md"
     },
@@ -153,16 +157,5 @@
       "new": "build/packet/wolfram-starter.wl"
     }
   ],
-  "skipped": [
-    {
-      "old": "chalumeau-family-design-table.xlsx",
-      "new": "build/design-tables/chalumeau-family-design-table.xlsx",
-      "reason": "PermissionError: [Errno 13] Permission denied: '/mnt/c/Users/Tony/Documents/GitHub/chalumeau/chalumeau-family-design-table.xlsx' -> '/mnt/c/Users/Tony/Documents/GitHub/chalumeau/build/design-tables/chalumeau-family-design-table.xlsx'"
-    },
-    {
-      "old": "~$chalumeau-family-design-table.xlsx",
-      "new": "build/design-tables/~$chalumeau-family-design-table.xlsx",
-      "reason": "PermissionError: [Errno 13] Permission denied: '/mnt/c/Users/Tony/Documents/GitHub/chalumeau/~$chalumeau-family-design-table.xlsx' -> '/mnt/c/Users/Tony/Documents/GitHub/chalumeau/build/design-tables/~$chalumeau-family-design-table.xlsx'"
-    }
-  ]
+  "skipped": []
 }
