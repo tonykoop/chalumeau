@@ -1,0 +1,2 @@
+session_id,date,variant,body_serial,reed_id,reed_make_model,reed_strength,reed_condition,reed_soak_min,mouthpiece_id,mouthpiece_make_model,mouthpiece_facing,tip_opening_mm,lay_length_mm,ligature,reed_exposure_mm,reed_tip_gap_mm,onset_pressure_in_h2o,mouthpiece_only_response_note,response_rating_1_5,chirp_or_squeak,notes
+CLM-SOP-C4-P1-S01,,Soprano C,CLM-SOP-C4-BODY-001,REED-001,,,,,MP-001,,,,,,,,,,,,Record before root tuning; keep this setup ID on every pitch row.
