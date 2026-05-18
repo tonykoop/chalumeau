@@ -63,4 +63,3 @@ The repo should stay at L2 until:
 - keywork leak tests are documented if levers are installed;
 - the chosen CAD/DXF/design-table artifact is declared as fabrication authority;
 - sourcing rows are checked at purchase time, not treated as current quotes.
-

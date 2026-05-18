@@ -35,4 +35,3 @@ in `assets/images/` are source/provenance references, not finished build proof.
 - Mouthpiece/reed close-up.
 - Tone-hole and optional keywork close-ups.
 - Known defects or revisions needed before the next body.
-

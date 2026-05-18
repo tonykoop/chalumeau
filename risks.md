@@ -16,4 +16,3 @@ generated tables, SVG previews, or source CAD as fabrication authority.
 | R-BB-006 | Materials | Dense or oily woods may crack, move, or complicate machining. | Keeper-build wood can hide process errors and introduce health hazards. | Prototype in domestic hardwood first; treat dense woods as later substitutions requiring dust/finish checks. |
 | R-BB-007 | Sourcing | Supplier prices, availability, and reed compatibility are not live-checked. | Stale sourcing can derail the first build or force geometry changes. | Recheck sourcing at purchase time and record substitutions. |
 | R-BB-008 | Documentation | Attributed reference photos could be mistaken for Tony build photos. | Public readers need provenance clarity. | Keep captions explicit and replace with Tony-built prototype photos when available. |
-
