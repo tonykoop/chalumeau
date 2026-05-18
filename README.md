@@ -24,10 +24,12 @@ tables, and DIY keywork.
 ## What this is
 
 This repository now contains a first-pass engineering packet for
-designing and building a family of chalumeaux in soprano C, alto G, tenor
-C, and bass F. The design is parametric: body length, bore, tone-hole
-positions, and optional levers are driven from formulas rather than
-hidden one-off dimensions.
+designing and prototyping a family of chalumeaux in soprano C, alto G,
+tenor C, and bass F. The design is parametric: body length, bore,
+tone-hole positions, and optional levers are driven from formulas rather
+than hidden one-off dimensions. It is not yet a build-ready or
+empirically validated packet; the first soprano prototype still needs
+measured reed, mouthpiece, bore, tuning, and response data.
 
 The packet starts from attributed Dudy.eu chalumeau reference photos in
 `assets/images/`, Tony's `Musical Instruments.xlsx` workbook, and especially
@@ -76,7 +78,7 @@ uses the deeper `build/` artifacts for shop work.
 
 ## Existing build packet map
 
-- [`build/packet/`](build/packet/) - design narrative, BOM, sourcing, cut list, validation, assembly, RFQ, drawing/visual briefs, and Wolfram starter.
+- [`build/packet/`](build/packet/) - design narrative, BOM, sourcing, cut list, validation loop, validation gates, assembly, RFQ, drawing/visual briefs, and Wolfram starter.
 - [`build/presentation/`](build/presentation/) - capstone deck, printable packet, HTML/PDF exports, and manifest.
 - [`build/design-tables/`](build/design-tables/) - Excel and SolidWorks-ready design tables.
 - [`build/drawings/`](build/drawings/) - dimensioned drawing sheets and drawing exports.
@@ -95,7 +97,7 @@ uses the deeper `build/` artifacts for shop work.
 | Keywork concept | two-key handmade lever system specified |
 | Manufacturing drawings | SVG first-pass sheets present; not reviewed fabrication authority |
 | Shop build method | starter workflow for prototype review |
-| Tuning validation | template ready; needs measured prototype data |
+| Reed/tuning validation | capture templates and validation loop ready; needs measured prototype data |
 | SolidWorks | variable conventions and design table ready |
 
 ## License

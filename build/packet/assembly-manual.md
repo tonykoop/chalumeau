@@ -8,6 +8,7 @@ bore, reed, and seven front holes speak reliably.
 ## Phase 0 - Design Freeze
 
 1. Pick the exact reed and mouthpiece.
+   Record it in `../data/reed-mouthpiece-capture-template.csv`.
 2. Print `../data/tone-hole-schedule.csv` and mark which holes will be
    drilled in the first pass.
 3. Decide whether the prototype uses raised collars or plain chamfered
@@ -20,6 +21,7 @@ bore, reed, and seven front holes speak reliably.
 2. Drill the bore from the reed-seat end with the longest stable drill
    setup available.
 3. Ream or lap to final bore diameter. Measure at both ends.
+   Record station measurements in `../data/bore-trim-capture-template.csv`.
 4. Turn the exterior body profile, leaving extra length at the bell end.
 5. Cut the mouthpiece socket/tenon but keep the reed setup removable.
 
@@ -28,7 +30,8 @@ bore, reed, and seven front holes speak reliably.
 1. Assemble reed, mouthpiece, and body with all holes undrilled.
 2. Measure the all-closed pitch.
 3. Trim the bell/foot in small steps only after the reed is stable.
-4. Record every trim amount in `validation.csv`.
+4. Record every trim amount in `../data/bore-trim-capture-template.csv`
+   and carry the pass/fail result into `validation.csv`.
 
 ## Phase 3 - Tone Holes
 
@@ -37,7 +40,7 @@ bore, reed, and seven front holes speak reliably.
 2. Center punch lightly. A wandering bit will change tuning.
 3. Drill each hole 15-25 percent undersize.
 4. Open holes from low to high. After each enlargement, play the target
-   note and log measured frequency.
+   note and log measured frequency in `../data/tuning-capture-template.csv`.
 5. Chamfer only after pitch is close; chamfering can sharpen the note.
 
 ## Phase 4 - Optional K01/K02 Keywork

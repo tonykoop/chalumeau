@@ -19,11 +19,11 @@
     "image-attributions.md"
   ],
   "outputs": {
-    "capstone_deck_markdown": "/mnt/c/Users/Tony/Documents/GitHub/chalumeau/capstone-deck.md",
-    "capstone_deck_pptx": "/mnt/c/Users/Tony/Documents/GitHub/chalumeau/capstone-deck.pptx",
-    "print_packet_markdown": "/mnt/c/Users/Tony/Documents/GitHub/chalumeau/print-packet.md",
-    "print_packet_html": "/mnt/c/Users/Tony/Documents/GitHub/chalumeau/print-packet.html",
-    "print_packet_pdf": "/mnt/c/Users/Tony/Documents/GitHub/chalumeau/print-packet.pdf"
+    "capstone_deck_markdown": "/mnt/c/Users/Tony/Documents/GitHub/chalumeau/build/presentation/capstone-deck.md",
+    "capstone_deck_pptx": "/mnt/c/Users/Tony/Documents/GitHub/chalumeau/build/presentation/capstone-deck.pptx",
+    "print_packet_markdown": "/mnt/c/Users/Tony/Documents/GitHub/chalumeau/build/presentation/print-packet.md",
+    "print_packet_html": "/mnt/c/Users/Tony/Documents/GitHub/chalumeau/build/presentation/print-packet.html",
+    "print_packet_pdf": "/mnt/c/Users/Tony/Documents/GitHub/chalumeau/build/presentation/print-packet.pdf"
   },
   "notes": [
     "PPTX is created when python-pptx is installed.",

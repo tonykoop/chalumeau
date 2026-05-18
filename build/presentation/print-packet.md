@@ -497,7 +497,7 @@ Project artifact.
 
 # Chalumeau Family
 
-> A build-ready design packet for a family of single-reed chalumeaux:
+> A prototype validation packet for a family of single-reed chalumeaux:
 > keyless folk-pipe simplicity first, optional handmade two-key metalwork
 > second, and a documented path toward clarinet-style register experiments.
 
@@ -519,11 +519,13 @@ tables, and DIY keywork.
 
 ## What this is
 
-This repository now contains a complete first-pass engineering packet for
-designing and building a family of chalumeaux in soprano C, alto G, tenor
-C, and bass F. The design is parametric: body length, bore, tone-hole
-positions, and optional levers are driven from formulas rather than
-hidden one-off dimensions.
+This repository now contains a first-pass engineering packet for
+designing and prototyping a family of chalumeaux in soprano C, alto G,
+tenor C, and bass F. The design is parametric: body length, bore,
+tone-hole positions, and optional levers are driven from formulas rather
+than hidden one-off dimensions. It is not yet a build-ready or
+empirically validated packet; the first soprano prototype still needs
+measured reed, mouthpiece, bore, tuning, and response data.
 
 The packet starts from attributed Dudy.eu chalumeau reference photos in
 `../../assets/images/`, Tony's `Musical Instruments.xlsx` workbook, and especially
@@ -588,7 +590,7 @@ trills, low extensions, and better intonation.
 | Keywork concept | two-key handmade lever system specified |
 | Manufacturing drawings | SVG first-pass sheets complete |
 | Shop build method | complete for prototype workflow |
-| Tuning validation | template ready; needs measured prototype data |
+| Reed/tuning validation | capture templates and validation loop ready; needs measured prototype data |
 | SolidWorks | variable conventions and design table ready |
 
 ## License

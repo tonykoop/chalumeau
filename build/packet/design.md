@@ -115,12 +115,19 @@ equation snippets are in `../cad/solidworks-equations.txt`.
    logging measured frequency and cents error.
 5. Add K01/K02 to either the same body or a second soprano body. Validate
    sealing before measuring pitch.
-6. Update the empirical correction column in the design workbook before
+6. Fill `../data/reed-mouthpiece-capture-template.csv`,
+   `../data/bore-trim-capture-template.csv`, and
+   `../data/tuning-capture-template.csv` during the same measurement
+   session so pitch data is tied to the actual reed, mouthpiece, bore,
+   temperature, and blowing setup.
+7. Update the empirical correction column in the design workbook before
    scaling to alto, tenor, or bass.
 
 ## Next Actions
 
 - Confirm the actual reed and mouthpiece family for the soprano prototype.
+- Run the Phase 0/1/2 gates in `validation-loop.md` before drilling final
+  tone-hole diameters.
 - Decide whether the first body gets raised collars like the inspiration
   image or plain chamfered holes for faster tuning.
 - Model `CLM-SOP-C4` in SolidWorks using the provided global variables.
