@@ -1,0 +1,7 @@
+item_id,subsystem,item,qty,status,source_status,authority_note,next_action
+CLM-BB-001,body,prototype hardwood blank for soprano C,1,planned,supplier-unverified,"Dimensions derive from build/packet/family-spec.csv and require shop confirmation","Select domestic hardwood and record actual blank dimensions"
+CLM-BB-002,bore,long drill/reamer tooling for soprano bore,1,planned,supplier-unverified,"Tooling path is not validated on a physical blank","Choose drilling/reaming method and test on scrap"
+CLM-BB-003,reed,mouthpiece and commercial reed set,1,planned,supplier-unverified,"Reed/mouthpiece setup controls pitch and response but is not selected yet","Record model plus reed strength plus facing and setup notes"
+CLM-BB-004,tone_holes,undersized tone-hole drilling process,1,planned,shop-process-required,"Hole positions are first-pass estimates only","Drill undersized and log measured tuning changes"
+CLM-BB-005,keywork,optional K01/K02 lever hardware,1,optional,supplier-unverified,"Optional keywork is source/starter evidence and not validated metalwork","Build only after keyless body speaks reliably"
+CLM-BB-006,documentation,measurement log and prototype photos,1,missing,measurement-required,"No measured Tony-built prototype evidence is present","Capture pitch plus response plus leak and build photos during first prototype"

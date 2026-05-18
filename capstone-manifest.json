@@ -1,0 +1,67 @@
+{
+  "packet": "chalumeau",
+  "mode": "repo-root-bare-bones",
+  "title": "Chalumeau Bare-Bones Starter Packet",
+  "instrument": "Chalumeau",
+  "build_target": "Soprano C chalumeau first prototype",
+  "artifact_focus": "Root-level review packet for a single-reed stopped-pipe chalumeau scaffold.",
+  "family_members": [
+    "single-reed woodwind",
+    "chalumeau",
+    "clarinet ancestor",
+    "optional two-key handmade keywork"
+  ],
+  "release_status": "private review",
+  "packet_version": "bare-bones readiness packet / L2 scaffold",
+  "fabrication_authority": "not build-ready; CAD/DXF/design-table authority requires review and measured prototype feedback",
+  "measurement_status": "TBD; no measured Tony-built prototype data in this root packet",
+  "primary_existing_packet": "build/packet/",
+  "engineering": {
+    "wolfram": [
+      {
+        "source_file": "build/packet/wolfram-starter.wl",
+        "cloud_path": "build/packet/wolfram-starter.wl",
+        "cloud_url": "",
+        "kind": "local-wl",
+        "permission": "local"
+      }
+    ]
+  },
+  "release_gate": {
+    "public_candidate": false,
+    "required_before_public": [
+      "Select and record the commercial reed/mouthpiece setup for the first soprano prototype.",
+      "Measure all-closed root pitch and tone-hole sweep on a physical prototype.",
+      "Log tone-hole enlargement, cents error, and response before accepting the schedule.",
+      "Validate optional K01/K02 keywork with leak-light or suction testing before pitch claims.",
+      "Declare reviewed CAD/DXF/design-table fabrication authority after measured feedback.",
+      "Live-check sourcing, prices, lead times, and substitutions before purchase.",
+      "Replace or supplement attributed reference images with Tony-built prototype photos."
+    ]
+  },
+  "sources": [
+    {
+      "title": "Existing build packet",
+      "credit": "Detailed generated packet and tables already present in build/packet and build/data.",
+      "url": "build/packet/design.md"
+    },
+    {
+      "title": "Workbook inspection summary",
+      "credit": "Documents why the packet uses stopped cylindrical single-reed assumptions.",
+      "url": "build/data/workbook-inspection-summary.md"
+    },
+    {
+      "title": "Image attributions",
+      "credit": "Reference photos are attributed source images, not Tony-built prototype photos.",
+      "url": "docs/image-attributions.md"
+    }
+  ],
+  "root_packet_files": [
+    "design.md",
+    "bom.csv",
+    "validation.csv",
+    "risks.md",
+    "photo-shotlist.md",
+    "capstone-manifest.json"
+  ]
+}
