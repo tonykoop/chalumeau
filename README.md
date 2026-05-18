@@ -3,7 +3,8 @@
 > Bare-bones readiness packet for a family of single-reed chalumeaux:
 > keyless folk-pipe simplicity first, optional handmade two-key metalwork
 > second, and a documented path toward clarinet-style register experiments.
-> The current repo is an L2 scaffold, not a build-ready or measured packet.
+> The current repo is a prototype-validation scaffold, not a build-ready or
+> measured packet.
 
 ![Inspiration chalumeau with turned wood body, raised tone-hole collars, black mouthpiece, and flared bell](assets/images/chalumeau1.jpg)
 *Photo/reference instrument by Petr Skalicky / Dudy.eu, from
@@ -75,6 +76,18 @@ uses the deeper `build/` artifacts for shop work.
 - [`risks.md`](risks.md) - acoustic, fabrication, sourcing, keywork, and documentation risks.
 - [`photo-shotlist.md`](photo-shotlist.md) - future public-safe prototype documentation shots.
 - [`capstone-manifest.json`](capstone-manifest.json) - root packet metadata and release gates.
+- [`explorer.html`](explorer.html) - studio review surface for the packet, measurement loop, and capstone files.
+
+## Measurement capture loop
+
+Issue #1 is the first measured-data gate. These files are templates, not
+completed measurements:
+
+- [`build/data/reed-mouthpiece-capture-template.csv`](build/data/reed-mouthpiece-capture-template.csv) - reed, mouthpiece, gap, onset, response, and leak setup capture.
+- [`build/data/bore-trim-capture-template.csv`](build/data/bore-trim-capture-template.csv) - bore station, trim, all-closed pitch, and datum capture.
+- [`build/data/prototype-measurement-template.csv`](build/data/prototype-measurement-template.csv) - prototype pitch/response sweep keyed to the same reed, mouthpiece, and bore IDs.
+- [`build/data/tuning-capture-template.csv`](build/data/tuning-capture-template.csv) - tone-hole enlargement, cents error, response, and leak-check log.
+- [`build/packet/validation-loop.md`](build/packet/validation-loop.md) - P0-P4 gates for moving from scaffold to measured prototype evidence.
 
 ## Existing build packet map
 

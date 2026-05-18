@@ -10,8 +10,8 @@ their dimensions are reconciled with measured shop data.
 | Gate | Evidence file | Pass condition | Blocks |
 | --- | --- | --- | --- |
 | P0 reed/mouthpiece setup | `../data/reed-mouthpiece-capture-template.csv` | one stable `reed_id` and `mouthpiece_id` chosen, with onset and response notes recorded | root pitch claims |
-| P1 bore/root tuning | `../data/bore-trim-capture-template.csv` | bore stations measured, datum confirmed, all-closed C4 within +/- 15 cents before final tuning | final tone-hole drilling |
-| P2 tone-hole tuning | `../data/tuning-capture-template.csv` | H01-H07 measured with same `reed_id`, `mouthpiece_id`, and `bore_profile_id`; final rows within +/- 12 cents | family scaling |
+| P1 bore/root tuning | `../data/bore-trim-capture-template.csv` | bore stations measured, datum confirmed, leak status recorded, all-closed C4 within +/- 15 cents before final tuning | final tone-hole drilling |
+| P2 tone-hole tuning | `../data/tuning-capture-template.csv` | H01-H07 measured with same `reed_id`, `mouthpiece_id`, and `bore_profile_id`; final rows within +/- 12 cents and response rating >= 3 | family scaling |
 | P3 keywork seal | `validation.csv` plus build photos or leak notes | K01/K02 pads pass leak-light or suction check before pitch rows are trusted | keyed-note claims |
 | P4 scale-up decision | revised design table or correction notes | empirical correction is documented from P1/P2 before alto, tenor, or bass dimensions are promoted | larger-family builds |
 
@@ -20,7 +20,8 @@ their dimensions are reconciled with measured shop data.
 1. Choose a commercial reed and mouthpiece for the first soprano C test.
 2. Assign stable IDs such as `REED-001` and `MP-001`.
 3. Record reed strength, soak state, mouthpiece facing if known, ligature,
-   onset pressure, response rating, and any chirp/squeak behavior in
+   mouthpiece-only pitch/response, onset pressure, leak status, response
+   rating, and any chirp/squeak behavior in
    `../data/reed-mouthpiece-capture-template.csv`.
 4. Use the same IDs in the bore and tuning logs. If either changes, start a
    new `session_id` instead of mixing measurements.

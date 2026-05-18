@@ -1,6 +1,6 @@
 # Chalumeau Bare-Bones Starter Design
 
-Current status: **bare-bones readiness packet / L2 scaffold**.
+Current status: **bare-bones readiness packet / prototype-validation scaffold**.
 
 Fabrication authority: **not build-ready**. The repo contains useful generated
 packet artifacts under `build/`, including design tables, SVG drawing exports,
@@ -43,6 +43,12 @@ open-open flute assumptions. Reed/mouthpiece compliance, bore finish, tone-hole
 chimney height, and player pressure require prototype measurement before any
 tuning claim becomes validated.
 
+`build/packet/family-spec.csv` now records `acoustic_law=stopped_pipe`,
+`end_condition=one_end_closed_reed`, and
+`dimension_provenance=measurement_required` for each family member. That keeps
+the quarter-wave reed-pipe assumption explicit without pretending the current
+lengths are empirically corrected build dimensions.
+
 ## Assumptions To Verify
 
 | Assumption | Current value | Evidence needed |
@@ -53,9 +59,23 @@ tuning claim becomes validated.
 | Optional K01/K02 keywork can seal reliably | requires measurement | Leak-light/suction test and tuning data with pads installed. |
 | Scaled alto/tenor/bass variants are viable | TBD | Soprano correction data before scaling. |
 
+## Measurement Capture Files
+
+The current measurement files are capture templates only. They become evidence
+after shop measurements fill in the empty `measured_hz`, `cents_error`,
+`onset_pressure_in_h2o`, `response_rating_1_5`, bore, gap, leak, and action
+fields.
+
+| Gate | Template | Blocks |
+| --- | --- | --- |
+| P0 reed/mouthpiece setup | `build/data/reed-mouthpiece-capture-template.csv` | root pitch claims |
+| P1 bore/root tuning | `build/data/bore-trim-capture-template.csv` | final tone-hole drilling |
+| P2 pitch/response sweep | `build/data/prototype-measurement-template.csv` and `build/data/tuning-capture-template.csv` | tone-hole acceptance and family scaling |
+| P3 keywork seal | `validation.csv` plus shop leak evidence | keyed-note claims |
+
 ## Promotion Gates
 
-The repo should stay at L2 until:
+The repo should stay at scaffold status until:
 
 - the first soprano prototype has measured pitch/response data;
 - reed and mouthpiece setup are recorded with each measurement pass;
