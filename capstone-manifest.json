@@ -4,7 +4,7 @@
   "title": "Chalumeau Bare-Bones Starter Packet",
   "instrument": "Chalumeau",
   "build_target": "Soprano C chalumeau first prototype",
-  "artifact_focus": "Root-level review packet for a single-reed stopped-pipe chalumeau scaffold.",
+  "artifact_focus": "Root-level review packet plus measurement capture loop for a single-reed stopped-pipe chalumeau scaffold.",
   "family_members": [
     "single-reed woodwind",
     "chalumeau",
@@ -12,10 +12,18 @@
     "optional two-key handmade keywork"
   ],
   "release_status": "private review",
-  "packet_version": "bare-bones readiness packet / L2 scaffold",
+  "packet_version": "bare-bones readiness packet / prototype-validation scaffold",
   "fabrication_authority": "not build-ready; CAD/DXF/design-table authority requires review and measured prototype feedback",
-  "measurement_status": "TBD; no measured Tony-built prototype data in this root packet",
+  "measurement_status": "measurement_required; templates and gates are present but no measured Tony-built prototype data is recorded",
   "primary_existing_packet": "build/packet/",
+  "studio_explorer": "explorer.html",
+  "measurement_capture": {
+    "reed_mouthpiece": "build/data/reed-mouthpiece-capture-template.csv",
+    "bore_trim": "build/data/bore-trim-capture-template.csv",
+    "prototype_pitch_response": "build/data/prototype-measurement-template.csv",
+    "tone_hole_tuning": "build/data/tuning-capture-template.csv",
+    "validation_loop": "build/packet/validation-loop.md"
+  },
   "engineering": {
     "wolfram": [
       {
@@ -31,6 +39,8 @@
     "public_candidate": false,
     "required_before_public": [
       "Select and record the commercial reed/mouthpiece setup for the first soprano prototype.",
+      "Record mouthpiece-only pitch/response, reed gap, onset pressure, and leak status before root tuning.",
+      "Measure reed-seat, mid-bore, and bell-face bore stations before final tone-hole drilling.",
       "Measure all-closed root pitch and tone-hole sweep on a physical prototype.",
       "Log tone-hole enlargement, cents error, and response before accepting the schedule.",
       "Validate optional K01/K02 keywork with leak-light or suction testing before pitch claims.",
@@ -44,6 +54,11 @@
       "title": "Existing build packet",
       "credit": "Detailed generated packet and tables already present in build/packet and build/data.",
       "url": "build/packet/design.md"
+    },
+    {
+      "title": "Prototype validation loop",
+      "credit": "Defines P0-P4 measurement gates for reed, bore, tuning, response, keywork, and scale-up.",
+      "url": "build/packet/validation-loop.md"
     },
     {
       "title": "Workbook inspection summary",
@@ -62,6 +77,12 @@
     "validation.csv",
     "risks.md",
     "photo-shotlist.md",
-    "capstone-manifest.json"
+    "capstone-manifest.json",
+    "explorer.html",
+    "build/packet/family-spec.csv",
+    "build/data/reed-mouthpiece-capture-template.csv",
+    "build/data/bore-trim-capture-template.csv",
+    "build/data/prototype-measurement-template.csv",
+    "build/data/tuning-capture-template.csv"
   ]
 }

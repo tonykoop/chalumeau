@@ -360,6 +360,7 @@ mark.hit{background:var(--gold);color:var(--ink);
   </div>
   <div class="actions">
     <input id="search" class="search" placeholder="Search packet content…" aria-label="Search packet content">
+    <a class="action-btn" href="../instrument-showcase/site/library.html" title="Browse all studio explorers">Library</a>
     <a class="action-btn" href="https://github.com/tonykoop/chalumeau" target="_blank" rel="noopener">GitHub</a>
   </div>
 </header>
@@ -384,7 +385,7 @@ mark.hit{background:var(--gold);color:var(--ink);
   </div>
   <div class="status-row">
     <div class="status-label">Status</div>
-    <div class="status-val"><span class="pill pill-private">Private review</span>&nbsp;&nbsp;<span class="pill pill-block">Public-release blocked</span> Packet version <span class="strong">bare-bones readiness packet / L2 scaffold</span></div>
+    <div class="status-val"><span class="pill pill-private">Private review</span>&nbsp;&nbsp;<span class="pill pill-block">Public-release blocked</span> Packet version <span class="strong">bare-bones readiness packet / prototype-validation scaffold</span> · measured data still required</div>
   </div>
   <div class="status-row">
     <div class="status-label">Family</div>
@@ -392,14 +393,14 @@ mark.hit{background:var(--gold);color:var(--ink);
   </div>
   <div class="status-row">
     <div class="status-label">Release gates</div>
-    <div class="status-val"><ul class="gates"><li class="gate"><span class="gate-dot block" title="Open"></span><span class="gate-label">Select and record the commercial reed/mouthpiece setup for the first soprano prototype.</span></li><li class="gate"><span class="gate-dot block" title="Open"></span><span class="gate-label">Measure all-closed root pitch and tone-hole sweep on a physical prototype.</span></li><li class="gate"><span class="gate-dot block" title="Open"></span><span class="gate-label">Log tone-hole enlargement, cents error, and response before accepting the schedule.</span></li><li class="gate"><span class="gate-dot block" title="Open"></span><span class="gate-label">Validate optional K01/K02 keywork with leak-light or suction testing before pitch claims.</span></li><li class="gate"><span class="gate-dot block" title="Open"></span><span class="gate-label">Declare reviewed CAD/DXF/design-table fabrication authority after measured feedback.</span></li><li class="gate"><span class="gate-dot block" title="Open"></span><span class="gate-label">Live-check sourcing, prices, lead times, and substitutions before purchase.</span></li><li class="gate"><span class="gate-dot block" title="Open"></span><span class="gate-label">Replace or supplement attributed reference images with Tony-built prototype photos.</span></li></ul></div>
+    <div class="status-val"><ul class="gates"><li class="gate"><span class="gate-dot block" title="Open"></span><span class="gate-label">Select and record the commercial reed/mouthpiece setup for the first soprano prototype.</span></li><li class="gate"><span class="gate-dot block" title="Open"></span><span class="gate-label">Record mouthpiece-only pitch/response, reed gap, onset pressure, and leak status before root tuning.</span></li><li class="gate"><span class="gate-dot block" title="Open"></span><span class="gate-label">Measure reed-seat, mid-bore, and bell-face bore stations before final tone-hole drilling.</span></li><li class="gate"><span class="gate-dot block" title="Open"></span><span class="gate-label">Measure all-closed root pitch and tone-hole sweep on a physical prototype.</span></li><li class="gate"><span class="gate-dot block" title="Open"></span><span class="gate-label">Log tone-hole enlargement, cents error, and response before accepting the schedule.</span></li><li class="gate"><span class="gate-dot block" title="Open"></span><span class="gate-label">Validate optional K01/K02 keywork with leak-light or suction testing before pitch claims.</span></li><li class="gate"><span class="gate-dot block" title="Open"></span><span class="gate-label">Declare reviewed CAD/DXF/design-table fabrication authority after measured feedback.</span></li><li class="gate"><span class="gate-dot block" title="Open"></span><span class="gate-label">Live-check sourcing, prices, lead times, and substitutions before purchase.</span></li><li class="gate"><span class="gate-dot block" title="Open"></span><span class="gate-label">Replace or supplement attributed reference images with Tony-built prototype photos.</span></li></ul></div>
   </div>
 </article>
 
 <section id="overview" data-toc="Overview" data-toc-group="Project">
   <h1><span class="eyebrow">01 · Overview</span>Chalumeau Bare-Bones Starter Packet</h1>
 
-  <p>This explorer is the studio-facing review packet for <strong>chalumeau</strong>. Sections below cover the root starter files, conservative validation gates, the local Wolfram starter, risks, existing build artifacts, and missing prototype evidence.</p>
+  <p>This explorer is the studio-facing review packet for <strong>chalumeau</strong>. Sections below cover the root starter files, conservative validation gates, the measurement capture loop for reed/mouthpiece, bore, tuning, and response, the local Wolfram starter, risks, existing build artifacts, and missing prototype evidence.</p>
 
 
 </section>
@@ -427,6 +428,18 @@ mark.hit{background:var(--gold);color:var(--ink);
 <div class="file open"><div class="file-head" onclick="toggleFile(this)"><span class="icon">▶</span><span class="file-name">validation.csv</span><span class="file-type">CSV</span><span class="file-desc">Checks · methods · tolerances · gates</span><span class="file-actions"><a href="validation.csv" target="_blank" rel="noopener">Open</a></span></div><div class="file-body" data-csv="validation.csv"></div></div>
 </section>
 
+<section id="measurement-capture" data-toc="Measurement Capture" data-toc-group="Validate">
+  <h1><span class="eyebrow">· Measurement Capture</span>Reed · Bore · Tuning · Response</h1>
+  <div class="callout block"><span class="lab">No measured prototype data yet</span>
+    <p>These tables are capture templates. Empty measured fields mean the packet still cannot claim tuned, build-ready, L3, L4, or empirically validated status.</p>
+  </div>
+<div class="file open"><div class="file-head" onclick="toggleFile(this)"><span class="icon">▶</span><span class="file-name">build/data/reed-mouthpiece-capture-template.csv</span><span class="file-type">CSV</span><span class="file-desc">Reed, mouthpiece, gap, onset, response, and leak setup</span><span class="file-actions"><a href="build/data/reed-mouthpiece-capture-template.csv" target="_blank" rel="noopener">Open</a></span></div><div class="file-body" data-csv="build/data/reed-mouthpiece-capture-template.csv"></div></div>
+<div class="file"><div class="file-head" onclick="toggleFile(this)"><span class="icon">▶</span><span class="file-name">build/data/bore-trim-capture-template.csv</span><span class="file-type">CSV</span><span class="file-desc">Bore stations, trim state, all-closed root pitch</span><span class="file-actions"><a href="build/data/bore-trim-capture-template.csv" target="_blank" rel="noopener">Open</a></span></div><div class="file-body" data-csv="build/data/bore-trim-capture-template.csv"></div></div>
+<div class="file"><div class="file-head" onclick="toggleFile(this)"><span class="icon">▶</span><span class="file-name">build/data/prototype-measurement-template.csv</span><span class="file-type">CSV</span><span class="file-desc">Prototype pitch and response sweep</span><span class="file-actions"><a href="build/data/prototype-measurement-template.csv" target="_blank" rel="noopener">Open</a></span></div><div class="file-body" data-csv="build/data/prototype-measurement-template.csv"></div></div>
+<div class="file"><div class="file-head" onclick="toggleFile(this)"><span class="icon">▶</span><span class="file-name">build/data/tuning-capture-template.csv</span><span class="file-type">CSV</span><span class="file-desc">Tone-hole enlargement and cents-error log</span><span class="file-actions"><a href="build/data/tuning-capture-template.csv" target="_blank" rel="noopener">Open</a></span></div><div class="file-body" data-csv="build/data/tuning-capture-template.csv"></div></div>
+<div class="file"><div class="file-head" onclick="toggleFile(this)"><span class="icon">▶</span><span class="file-name">build/packet/validation-loop.md</span><span class="file-type">MD</span><span class="file-desc">P0-P4 promotion gates</span><span class="file-actions"><a href="build/packet/validation-loop.md" target="_blank" rel="noopener">Open</a></span></div><div class="file-body" data-md="build/packet/validation-loop.md"></div></div>
+</section>
+
 <section id="run-it" data-toc="Run It — Wolfram Cloud" data-toc-group="Validate">
   <h1><span class="eyebrow">· Run it — Wolfram Cloud</span>Interactive acoustic model</h1>
   <p>One embed per published Wolfram notebook. Live entries iframe in directly; Owner-only entries show as grey-dot blocks; Pending/Failed states are diagnostic-only.</p>
@@ -445,13 +458,13 @@ mark.hit{background:var(--gold);color:var(--ink);
 
 <section id="capstone" data-toc="Capstone Deliverables" data-toc-group="Publish">
   <h1><span class="eyebrow">· Capstone deliverables</span>Deck · print packet · explorer</h1>
-  <div class="cards"><div class="card"><div class="k">Manifest</div><div class="v">capstone-manifest.json<span class="sub">Artifact inventory; release gates; required-before-public list</span></div><p style="margin-top:8px"><a href="capstone-manifest.json">Open JSON</a></p></div><div class="card"><div class="k">Studio explorer</div><div class="v">explorer.html<span class="sub">This document. Generated by instrument-maker/scripts/generate_explorer.py.</span></div><p style="margin-top:8px"><a href="explorer.html">Reload</a></p></div></div>
+  <div class="cards"><div class="card"><div class="k">Manifest</div><div class="v">capstone-manifest.json<span class="sub">Artifact inventory; release gates; measurement capture paths</span></div><p style="margin-top:8px"><a href="capstone-manifest.json">Open JSON</a></p></div><div class="card"><div class="k">Presentation manifest</div><div class="v">build/presentation/capstone-manifest.json<span class="sub">Repo-relative presentation exports and explorer path</span></div><p style="margin-top:8px"><a href="build/presentation/capstone-manifest.json">Open JSON</a></p></div><div class="card"><div class="k">Studio explorer</div><div class="v">explorer.html<span class="sub">This document, with measurement gates surfaced for review.</span></div><p style="margin-top:8px"><a href="explorer.html">Reload</a></p></div></div>
 </section>
 
 <section id="build-packet-map" data-toc="Build Packet Map" data-toc-group="Project">
   <h1><span class="eyebrow">· Build packet map</span>Existing evidence and authority boundaries</h1>
   <div class="callout warn"><span class="lab">Root packet boundary</span>
-    <p>The root files are the current review surface. Existing `build/` artifacts are useful source evidence, but they do not promote the repo beyond L2 until measured prototype data and reviewed CAD/DXF/design-table authority exist.</p>
+    <p>The root files are the current review surface. Existing `build/` artifacts are useful source evidence, but they do not promote the repo beyond scaffold status until measured prototype data and reviewed CAD/DXF/design-table authority exist.</p>
   </div>
   <div class="cards">
     <div class="card"><div class="k">Detailed packet</div><div class="v">build/packet/<span class="sub">Generated design, BOM, cut list, validation, assembly, and RFQ artifacts.</span></div><p style="margin-top:8px"><a href="build/packet/design.md">Open design</a></p></div>
