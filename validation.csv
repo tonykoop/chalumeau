@@ -1,0 +1,9 @@
+gate_id,area,current_status,evidence,next_action,promotion_blocker
+VAL-BB-001,readiness,L2 scaffold,"Root packet plus existing build/packet artifacts","Keep README and explorer language at starter/prototype-validation pending","yes"
+VAL-BB-010,reed_mouthpiece,TBD,"No selected reed or mouthpiece setup recorded","Choose commercial reed/mouthpiece and record model plus strength plus facing and setup","yes"
+VAL-BB-020,acoustic_model,derived_estimate,"Stopped-pipe first-pass model in build/packet/design.md","Measure all-closed root and tone-hole sweep on first soprano prototype","yes"
+VAL-BB-030,tone_holes,measurement_required,"build/data/tone-hole-schedule.csv exists as starting schedule","Drill undersized then enlarge in increments and log measured cents error","yes"
+VAL-BB-040,keywork,optional_unvalidated,"build/hardware/keywork-parts.csv and lever guide exist","Run leak-light or suction test before using keyed notes as tuning evidence","yes"
+VAL-BB-050,cad_dxf,source_only,"build/cad and build/drawings contain starter/source and SVG preview artifacts","Declare reviewed CAD/DXF/design-table authority before fabrication release","yes"
+VAL-BB-060,sourcing,unverified,"build/packet/sourcing.csv uses research-needed placeholders","Live-check suppliers plus price plus availability and substitutions before purchase","yes"
+VAL-BB-070,photos,missing,"Attributed reference photos exist; no Tony-built prototype photos","Capture public-safe build and finished-instrument photos","no"

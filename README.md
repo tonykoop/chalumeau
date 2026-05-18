@@ -1,8 +1,9 @@
 # Chalumeau Family
 
-> A build-ready design packet for a family of single-reed chalumeaux:
+> Bare-bones readiness packet for a family of single-reed chalumeaux:
 > keyless folk-pipe simplicity first, optional handmade two-key metalwork
 > second, and a documented path toward clarinet-style register experiments.
+> The current repo is an L2 scaffold, not a build-ready or measured packet.
 
 ![Inspiration chalumeau with turned wood body, raised tone-hole collars, black mouthpiece, and flared bell](assets/images/chalumeau1.jpg)
 *Photo/reference instrument by Petr Skalicky / Dudy.eu, from
@@ -22,7 +23,7 @@ tables, and DIY keywork.
 
 ## What this is
 
-This repository now contains a complete first-pass engineering packet for
+This repository now contains a first-pass engineering packet for
 designing and building a family of chalumeaux in soprano C, alto G, tenor
 C, and bass F. The design is parametric: body length, bore, tone-hole
 positions, and optional levers are driven from formulas rather than
@@ -60,7 +61,20 @@ the low register, then the clarinet moved one key into a better register
 vent position and gradually accumulated more keys for chromatic notes,
 trills, low extensions, and better intonation.
 
-## Packet map
+## Root starter packet
+
+These root-level files are the review entry point for the current bare-bones
+packet. They keep missing measurements and authority gaps visible before anyone
+uses the deeper `build/` artifacts for shop work.
+
+- [`design.md`](design.md) - current assumptions, acoustic boundary, evidence map, and promotion gates.
+- [`bom.csv`](bom.csv) - starter material/components list with source and authority status.
+- [`validation.csv`](validation.csv) - gates that must pass before L3/build-ready claims.
+- [`risks.md`](risks.md) - acoustic, fabrication, sourcing, keywork, and documentation risks.
+- [`photo-shotlist.md`](photo-shotlist.md) - future public-safe prototype documentation shots.
+- [`capstone-manifest.json`](capstone-manifest.json) - root packet metadata and release gates.
+
+## Existing build packet map
 
 - [`build/packet/`](build/packet/) - design narrative, BOM, sourcing, cut list, validation, assembly, RFQ, drawing/visual briefs, and Wolfram starter.
 - [`build/presentation/`](build/presentation/) - capstone deck, printable packet, HTML/PDF exports, and manifest.
@@ -76,11 +90,11 @@ trills, low extensions, and better intonation.
 
 | Area | Status |
 | --- | --- |
-| Acoustic model | first-order stopped cylindrical reed model complete |
-| Parametric family table | complete, with formulas and SolidWorks export |
+| Acoustic model | first-order stopped cylindrical reed model drafted; needs measured correction |
+| Parametric family table | formula-derived scaffold, with SolidWorks export |
 | Keywork concept | two-key handmade lever system specified |
-| Manufacturing drawings | SVG first-pass sheets complete |
-| Shop build method | complete for prototype workflow |
+| Manufacturing drawings | SVG first-pass sheets present; not reviewed fabrication authority |
+| Shop build method | starter workflow for prototype review |
 | Tuning validation | template ready; needs measured prototype data |
 | SolidWorks | variable conventions and design table ready |
 
