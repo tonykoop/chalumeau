@@ -1,5 +1,10 @@
 # Chalumeau Family
 
+Status: L2 V5 build-packet candidate. This is a prototype-validation scaffold
+with parametric tables, starter CAD/drawings, presentation exports, and
+measurement templates, but it is not a validated/build-ready or measured
+chalumeau packet.
+
 > Bare-bones readiness packet for a family of single-reed chalumeaux:
 > keyless folk-pipe simplicity first, optional handmade two-key metalwork
 > second, and a documented path toward clarinet-style register experiments.
@@ -77,6 +82,12 @@ uses the deeper `build/` artifacts for shop work.
 - [`photo-shotlist.md`](photo-shotlist.md) - future public-safe prototype documentation shots.
 - [`capstone-manifest.json`](capstone-manifest.json) - root packet metadata and release gates.
 - [`explorer.html`](explorer.html) - studio review surface for the packet, measurement loop, and capstone files.
+- [`visual-output-register.csv`](visual-output-register.csv) - V5 authority
+  register for existing CAD, drawing, presentation, image, and measurement
+  artifacts.
+- [`cad/mcp-session-log.md`](cad/mcp-session-log.md) - V5 provenance stub for
+  this migration; no MCP/creative-tool session generated new artifacts here.
+- [`qmd-step-0.md`](qmd-step-0.md) - Round 4 CLI retrieval record.
 
 ## Measurement capture loop
 
@@ -100,6 +111,16 @@ completed measurements:
 - [`build/hardware/`](build/hardware/) - handmade lever/keywork parts, guides, and hardware tables.
 - [`assets/images/`](assets/images/) - photos, attributed references, concept art, and generated visuals.
 - [`docs/`](docs/) - attribution, provenance, research, handoff notes, and reorganization manifest.
+
+## V5 Authority Boundary
+
+The current packet is reviewable at L2, not L3. `build/cad/`,
+`build/drawings/`, `build/design-tables/`, and `build/presentation/` are useful
+starter artifacts, but their dimensions and visual callouts still need shop
+review, reed/mouthpiece setup records, prototype pitch/response captures, and
+CAD/DXF authority review before any build-ready claim. The attributed photos
+under `assets/images/` are reference images, not Tony shop photos or
+dimensional evidence.
 
 ## Status
 
