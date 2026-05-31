@@ -27,8 +27,8 @@
   "engineering": {
     "wolfram": [
       {
-        "source_file": "build/packet/wolfram-starter.wl",
-        "cloud_path": "build/packet/wolfram-starter.wl",
+        "source_file": "build/packet/chalumeau-packet-starter.wl",
+        "cloud_path": "build/packet/chalumeau-packet-starter.wl",
         "cloud_url": "",
         "kind": "local-wl",
         "permission": "local"
