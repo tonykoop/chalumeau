@@ -16,7 +16,7 @@ Packet folder: `/mnt/c/Users/Tony/Documents/GitHub/chalumeau`
 | `../packet/validation.csv` | Target/measured values, tolerance, environment, result, and tuning/build action log. |
 | `../packet/supplier-rfq.md` | Supplier email/request-for-quote starter. |
 | `../packet/visual-bom-brief.md` | Art direction for an image-forward visual BOM. |
-| `../packet/wolfram-starter.wl` | Wolfram starter for physics, optimization, visualization, and validation. |
+| `../packet/chalumeau-packet-starter.wl` | Wolfram starter for physics, optimization, visualization, and validation. |
 | `README.md` | Project artifact. |
 | `../../docs/SKILLS.md` | Project artifact. |
 | `../packet/family-spec.csv` | Project artifact. |
@@ -419,7 +419,7 @@ not from pixels in the visual BOM.
 
 <div class="page-break"></div>
 
-## ../packet/wolfram-starter.wl
+## ../packet/chalumeau-packet-starter.wl
 
 Wolfram starter for physics, optimization, visualization, and validation.
 
@@ -576,7 +576,7 @@ trills, low extensions, and better intonation.
 - `../drawings/`: SVG drawing sheets for the family, soprano C, and keywork.
 - `../packet/assembly-manual.md`, `../packet/bom.csv`, `../packet/sourcing.csv`, `../packet/cut-list.csv`,
   `../packet/validation.csv`, `../packet/supplier-rfq.md`: shop-facing build packet files.
-- `../packet/wolfram-starter.wl`: Wolfram starter for acoustic sweeps and tuning
+- `../packet/chalumeau-packet-starter.wl`: Wolfram starter for acoustic sweeps and tuning
   validation.
 - `capstone-deck.pptx` and `print-packet.pdf`: presentation and printable
   versions of the packet.
