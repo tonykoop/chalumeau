@@ -27,11 +27,11 @@
   "engineering": {
     "wolfram": [
       {
-        "source_file": "build/packet/chalumeau-packet-starter.wl",
-        "cloud_path": "build/packet/chalumeau-packet-starter.wl",
-        "cloud_url": "",
-        "kind": "local-wl",
-        "permission": "local"
+        "source_file": "woodwind/chalumeau/build/packet/chalumeau-packet-starter.wl",
+        "cloud_path": "Musical_Instruments/woodwinds/chalumeau/chalumeau-packet-starter.wl",
+        "cloud_url": "https://www.wolframcloud.com/obj/wrfcoin/Musical_Instruments/woodwinds/chalumeau/chalumeau-packet-starter.wl",
+        "permission": "Public-Execute",
+        "kind": "acoustics-starter"
       }
     ]
   },
