@@ -77,16 +77,26 @@ uses the deeper `build/` artifacts for shop work.
 
 - [`design.md`](design.md) - current assumptions, acoustic boundary, evidence map, and promotion gates.
 - [`bom.csv`](bom.csv) - starter material/components list with source and authority status.
+- [`sourcing.csv`](sourcing.csv) - root procurement summary (condensed from `build/packet/sourcing.csv`).
+- [`cut-list.csv`](cut-list.csv) - root per-variant blank/body cut summary (condensed from `build/packet/cut-list.csv`).
+- [`drawing-brief.md`](drawing-brief.md) - root drawing-brief entry point (condensed from `build/packet/drawing-brief.md`).
 - [`validation.csv`](validation.csv) - gates that must pass before L3/build-ready claims.
 - [`risks.md`](risks.md) - acoustic, fabrication, sourcing, keywork, and documentation risks.
 - [`photo-shotlist.md`](photo-shotlist.md) - future public-safe prototype documentation shots.
 - [`capstone-manifest.json`](capstone-manifest.json) - root packet metadata and release gates.
 - [`explorer.html`](explorer.html) - studio review surface for the packet, measurement loop, and capstone files.
+- [`cad/chalumeau.scad`](cad/chalumeau.scad) - parametric bore-envelope +
+  tone-hole-schedule OpenSCAD master for the soprano/alto/tenor/bass family;
+  mouthpiece/reed/keywork are explicitly out of scope (see file header).
+  `pending_measurement`, not fabrication authority.
 - [`visual-output-register.csv`](visual-output-register.csv) - V5 authority
   register for existing CAD, drawing, presentation, image, and measurement
   artifacts.
 - [`cad/mcp-session-log.md`](cad/mcp-session-log.md) - V5 provenance stub for
   this migration; no MCP/creative-tool session generated new artifacts here.
+- [`evolution/`](evolution/) - Stage-0 evolution-pipeline intake (design
+  intent, master manifest, revision register) for the current CAD/design-table
+  masters; Gate A not yet run.
 - [`qmd-step-0.md`](qmd-step-0.md) - Round 4 CLI retrieval record.
 
 ## Measurement capture loop
