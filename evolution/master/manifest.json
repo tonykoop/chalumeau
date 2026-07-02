@@ -1,0 +1,50 @@
+{
+  "product": "chalumeau",
+  "pipeline": "studiopipeline:evolution-pipeline",
+  "stage": "0-intake",
+  "master_revision": "rev-A (pre-commit intake, 2026-07-01)",
+  "generated": "2026-07-01",
+  "cad_masters": [
+    {
+      "path": "cad/chalumeau.scad",
+      "format": "openscad-source",
+      "sha256": "13451f99a86a681640b9e17f356b9698ee71d95884940ccebe95520e1bb521b9",
+      "authority": "pending_measurement",
+      "lossy": false,
+      "notes": "New V5 bore-envelope + tone-hole-schedule parametric master for soprano/alto/tenor/bass; mouthpiece/reed/keywork out of scope. Render check pass (openscad -o STL, exit 0)."
+    },
+    {
+      "path": "build/packet/family-spec.csv",
+      "format": "design-table",
+      "sha256": "9ce0445943e6ebc0a44ed7502ac97fb6d3492f08f3095edcdd2c2f542a6a8b5a",
+      "authority": "pending_measurement",
+      "lossy": false,
+      "notes": "Family body/bore dimensions (root, bore ID, wall thickness, body/bell OD, body/blank length) per variant; measurement_required provenance."
+    },
+    {
+      "path": "build/data/tone-hole-schedule.csv",
+      "format": "design-table",
+      "sha256": "0f35e805d9f5326e0fc78a537e0cde939696324145dede14f72cae74ca83d0da",
+      "authority": "pending_measurement",
+      "lossy": false,
+      "notes": "Tone-hole schedule (x_from_bell_in, hole_dia_in) per variant; drill undersize then tune."
+    },
+    {
+      "path": "build/design-tables/chalumeau-family-design-table.xlsx",
+      "format": "design-table",
+      "sha256": "b98f3aa0b1d23c8d4ced77c76d7e5ad536f9ad963011004db594d752a6936dff",
+      "authority": "pending_measurement",
+      "lossy": false,
+      "notes": "Excel design table for family review; not measured build authority until soprano prototype corrections are folded back."
+    },
+    {
+      "path": "build/packet/chalumeau-packet-starter.wl",
+      "format": "wolfram-source",
+      "sha256": "9d922c7ff2bbba1e5f8b766ef79675531ba599f3f1682b13cf732fc486a9a484",
+      "authority": "derived_preview",
+      "lossy": false,
+      "notes": "Existing Wolfram stopped-pipe first-pass acoustic model; source-only, not executed. L2 evidence."
+    }
+  ],
+  "notes": "OpenSCAD source (cad/chalumeau.scad) plus the family-spec.csv/tone-hole-schedule.csv design tables are the current masters; no STEP/SolidWorks export reviewed as fabrication authority yet. Gate A (Alpha workspace compile) not yet run."
+}
